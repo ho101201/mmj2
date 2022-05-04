@@ -84,7 +84,7 @@ import {
         <div>
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">후기 쓰기</Text>
-                <Link href='/cutlet_info' position="absolute" right="11px" w="20px" h="20px">
+                <Link href='/CutletInfo' position="absolute" right="11px" w="20px" h="20px">
                     <Image src={btnX} />
                 </Link>
             </Flex>
@@ -166,7 +166,7 @@ import {
                 </Flex>
             </Flex>
 
-            <Link href='/tagInput'>
+            <Link href='/TagInput'>
                 <Flex p="10px" h="50px" mt="30px" mb="50px">
                     <Text fontSize={f2} color="#333333" >#태그 입력</Text>
                     <Spacer/>
@@ -178,7 +178,7 @@ import {
 
             <Flex direction="column" position="sticky" mr="10px"  w="100%" bottom="0"  mt="30px" pb="20px">
                 <Flex  w="100%" h="40px">
-                    <Link href='/cutlet_info' w="100%" mr="10px" ml="10px">
+                    <Link href='/CutletInfo' w="100%" mr="10px" ml="10px">
                         <Button w="100%" borderRadius="full" bg="#F6E229" color="#303030" fontWeight={700} fontSize={f1} >등록</Button>
                     </Link>
                 </Flex>
