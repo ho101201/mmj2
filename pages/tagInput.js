@@ -37,7 +37,7 @@ import {
         <div>
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">태그 입력</Text>
-                <Link href='/writingRev' position="absolute" right="11px" w="20px" h="20px">
+                <Link href='/WritingRev' position="absolute" right="11px" w="20px" h="20px">
                     <Image src={btnX} />
                 </Link>
             </Flex>

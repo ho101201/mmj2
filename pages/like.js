@@ -35,7 +35,7 @@ import {
         <div>
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">좋아요</Text>
-                <Link href='/profile' position="absolute" left="11px" w="20px" h="20px">
+                <Link href='/Profile' position="absolute" left="11px" w="20px" h="20px">
                     <Image src={arrowL} />
                 </Link>
             </Flex> 
@@ -142,7 +142,7 @@ import {
                     <Flex mt="41px">
                         <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">점심식사</Tag>
                         <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">후기태그</Tag>
-                        <Link href='/allTags'>
+                        <Link href='/AllTags'>
                             <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">+더보기</Tag>
                         </Link>
                     </Flex>

@@ -36,7 +36,7 @@ import review from './images/navIcons/icon_rev.png';
 import location from './images/navIcons/icon_loc.png';
 import call from './images/navIcons/icon_call.png';
 
-export default function rInfo() {
+export default function rWork() {
 
     const f1 ="16px";
     const f2 ="14px";
@@ -46,7 +46,7 @@ export default function rInfo() {
         <div>
             <Flex w="vw" h="40px" alignItems="center" justifyContent="center" borderBottom="1px solid #DDDDDD">
                 <Flex ml="18px" alignItems="center">
-                    <Link href='/randomR2' >
+                    <Link href='/RandomR2' >
                         <Flex w="7px" h="16px">
                             <Image src={arrowL}/>
                         </Flex>
@@ -104,77 +104,84 @@ export default function rInfo() {
                 <Link>
                     <Button w="90px" h="30px" bg="#303030" color="#ffffff" borderRadius="full" fontSize="10px" fontWeight="medium" mr="5px">가볼래요</Button>
                 </Link>
-                <Link href='/cutlet_went_rev1'>
+                <Link href='/CutletWentRev1'>
                     <Button w="90px" h="30px" bg="#F6E229" border="1px solid #303030" borderRadius="full" fontSize="10px" fontWeight="medium" ml="5px">가봤어요</Button>
                 </Link>
             </Flex>
 
             <Grid templateColumns="repeat(5,1fr)" h="50px">
-                <GridItem display="flex" alignItems="center" justifyContent="center" borderBottom="2px solid #F6E229">
-                    <Link href='/cutlet_info'>
-                        <Text fontSize={f2} fontWeight="bold" align="center">정보</Text>
+                <GridItem display="flex" alignItems="center" justifyContent="center" borderBottom="2px solid #303030">
+                    <Link href='/CutletInfo'>
+                        <Text fontSize={f2} fontWeight="bold" align="center" >정보</Text>
                     </Link>
                 </GridItem>
-                <GridItem display="flex" alignItems="center" justifyContent="center"  borderBottom="2px solid #303030">
-                    <Link href='/cutlet_work'>
+                <GridItem display="flex" alignItems="center" justifyContent="center" borderBottom="2px solid #F6E229">
+                    <Link href='/CutletWork'>
                         <Text fontSize={f2} fontWeight="medium" align="center">영업</Text>
                     </Link>
                 </GridItem>
                 <GridItem display="flex" alignItems="center" justifyContent="center"  borderBottom="2px solid #303030">
-                    <Link href='/cutlet_menu'>
+                    <Link href='/CutletMenu'>
                         <Text fontSize={f2} fontWeight="medium" align="center">메뉴</Text>
                     </Link>
                 </GridItem>
                 <GridItem display="flex" alignItems="center" justifyContent="center"  borderBottom="2px solid #303030">
-                    <Link href='/cutlet_photo'>
+                    <Link href='/CutletPhoto'>
                         <Text fontSize={f2} fontWeight="medium" align="center">사진</Text>
                     </Link>
                 </GridItem>
                 <GridItem display="flex" alignItems="center" justifyContent="center"  borderBottom="2px solid #303030">
-                    <Link href='/cutlet_review'>
+                    <Link href='/CutletReview'>
                         <Text fontSize={f2} fontWeight="medium" align="center">후기</Text>
                     </Link>
                 </GridItem>
             </Grid>
 
             <Flex m="10px" direction="column">
-                <Text fontSize={f1} fontWeight="bold" mt="15px">매장 소개</Text>
-                <Text fontSize={f2} mt="8px">"상위1% 프리미엄 돈카츠입니다."</Text>
-                <Flex direction="row" alignItems="center" mt='53px '>
-                    <Text fontSize={f1} fontWeight="bold">매장 Tip</Text>
+                <Text fontSize={f1} fontWeight="bold" mt="15px">영업시간</Text>
+                <Flex direction="row">
+                    <Flex direction="column">
+                        <Text fontSize={f2} mt="8px">평일</Text>
+                        <Text fontSize={f2} mt="8px">주말</Text>
+                        <Text fontSize={f2} mt="8px">브레이크</Text>
+                        <Text fontSize={f2} mt="8px">휴무일</Text>
+                        <Text fontSize={f2} mt="8px">라스트오더</Text>
+                    </Flex>
                     <Spacer/>
-                    <Text fontSize="10px" letterSpacing="-1px">마지막 업데이트 : 2021-11-09</Text>
+                    <Flex direction="column">
+                        <Text fontSize={f2} mt="8px" align="end">11:00 ~ 22:00</Text>
+                        <Text fontSize={f2} mt="8px" align="end">11:00 ~ 20:00</Text>
+                        <Text fontSize={f2} mt="8px" align="end">15:00 ~ 17:00</Text>
+                        <Text fontSize={f2} mt="8px" align="end">공휴일 영업, 명절 당일 휴무</Text>
+                        <Text fontSize={f2} mt="8px" align="end">매장19:00 / 포장 21:00</Text>
+                    </Flex>
                 </Flex>
-                <Text fontSize={f2} mt="8px">카레 추가 시 무한리필 됩니다.</Text>
-                <Text fontSize={f1} fontWeight="bold" mt="53px">편의정보</Text>
-                <Wrap mt='16px'>
-                    <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">예약가능</Tag>
-                    <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">포장</Tag>
-                    <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">주차가능</Tag>
-                    <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">1~2만원</Tag>
-                    <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">발렛파킹</Tag>
-                    <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">제로페이</Tag>
-                    <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">국민지원금</Tag>
-                </Wrap>
-                <Flex justifyContent="center" alignItems='center' mt='23' mb='33px'>
-                    <Text bg="#F6F6F6" fontSize='10px' w="232px" h="20px" borderRadius="4px" align='center' pt="2px">
-                        마지막 예약시간 00월00일 오전00시 00분 00초
+
+                <Flex direction="column" justifyContent="center" alignItems='center' w="vw" h="36px" mr="20px" ml='20px' mt='23px' bg="#F6F6F6">
+                    <Text  fontSize='10px' borderRadius="4px" align='center' color="#565656">
+                        코로나 19의 영향으로 식당 운영에 변동이 있을수 있습니다.
+                    </Text>
+                    <Text  fontSize='10px' borderRadius="4px" align='center' color="#565656" >
+                        식당으로 문의 후 방문 부탁드립니다.
                     </Text>
                 </Flex>
 
-                <Link href='/fixInfo'>
-                    <Flex alignItems='center' h='50px'>
-                        <Flex w="15px" h="15px" mr='11px'>
-                            <Image src={Exclamation}/>
-                        </Flex>
-                        <Text fontSize={f3} letterSpacing="-1px">잘못된 정보를 알려주세요</Text>
-                        <Spacer/>
-                        <Flex w="6px" h="10px">
-                            <Image src={arrowR}/>
-                        </Flex>
-                    </Flex>
-                </Link>
+                <Text fontSize={f1} fontWeight="bold" mt="56px">상황 / 분위기</Text>
+                <Wrap mt='16px'>
+                    <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">점심식사</Tag>
+                    <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">혼밥</Tag>
+                    <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">직장인</Tag>
+                    <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">데이트</Tag>
+                    <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">연인</Tag>
+                    <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">모던한</Tag>
+                    <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">숨은맛집</Tag>
+                </Wrap>
 
+                <Text fontSize={f1} fontWeight="bold" mt="56px">주차</Text>
+                <Text fontSize={f2} mt="8px">건물 내 주차장 ( 2시간 무료주차 )</Text>
+
+                <Text fontSize={f1} fontWeight="bold" mt="53px" >단체 예약</Text>
+                <Text fontSize={f2} mt="8px" mb="57px">홀 최대 66석, 룸 최대 32석 예약가능</Text>
 
             </Flex>
 
@@ -183,30 +190,27 @@ export default function rInfo() {
                     <Flex direction="row" w="vw" mt="13px" >
                         <Spacer/>
                         <Flex direction="column" alignItems="center" justifyContent="center" ml="40px" mr="40px">
-                            <Link href='/writingRev' w="24px" h="24px">
+                            <Link href='/WritingRev' w="24px" h="24px">
                                 <Image src={review}/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >후기쓰기</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" alignItems="center" justifyContent="center" ml="40px" mr="40px">
-                            <Link href='/cutlet_info' w="24px" h="24px">
+                            <Link w="24px" h="24px">
                                 <Image src={call}/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >전화</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" alignItems="center" justifyContent="center" ml="40px" mr="40px">
-                            <Link href='/cutlet_info' w="24px" h="24px">
+                            <Link w="24px" h="24px">
                                 <Image src={location}/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >길찾기</Text>
                         </Flex>
                         <Spacer/>
 
-                    </Flex>
-                    <Flex justifyContent="center" mt="8px">
-                        <Box w="135px" h="5px" opacity={26} bg="rgb(0, 0, 0, 0.26)" borderRadius="full"/>
                     </Flex>
                 </Box>
 

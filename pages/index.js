@@ -42,7 +42,7 @@ export default function LogIn() {
             <VStack spacing="10px" pr="10px" pl="10px">
               <Box w="100%" >
                 {/* <Img src={require("./images/kakao.png").default} position="absolute" w="22px" h='22px' /> */}
-                <Link href='/home'>
+                <Link href='/Home'>
                   <Flex bg="#FFFFFF" alignItems="center" justifyContent="center" w="100%" borderRadius="10px" h="40px" >
                     <Box ml="43px" mt="6px">
                       <Image src={kakao}/>
@@ -97,7 +97,7 @@ export default function LogIn() {
                 회원이 아니신가요?
               </Text>
 
-              <Link href='/signIn'>
+              <Link href='/SignIn'>
                 <Text textDecoration="underline" fontSize={f3} >
                   회원가입
                 </Text>

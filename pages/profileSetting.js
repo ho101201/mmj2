@@ -45,7 +45,7 @@ export default function pfSet() {
         <div>
             <Flex w="vw" h="40px" alignItems="center" justifyContent="center" borderBottom="1px solid #DDDDDD">
                 <Flex ml="18px" alignItems="center">
-                    <Link href='/profile' >
+                    <Link href='/Profile' >
                         <Flex w="7px" h="16px">
                             <Image src={arrowL}/>
                         </Flex>
@@ -98,7 +98,7 @@ export default function pfSet() {
                     <TagCloseButton fontSize="10px" bg="#A4A4A4" borderRadius="full" color="white" w="10px" h="10px"/>
                 </Tag>
                 <Tag fontSize={f1} color="#A4A4A4" border="1px solid #E1E1E1" bg="none" borderRadius="4px">
-                    <Link href='/add        Location'>
+                    <Link href='/AddLocation'>
                         <TagLabel><Icon w="48px" pb="5px" as={AddIcon}/></TagLabel>
                     </Link>
                 </Tag>
@@ -107,7 +107,7 @@ export default function pfSet() {
 
             <Flex direction="column" position="sticky" mr="10px"  w="100%" bottom="0"  mt="30px" pb="20px">
                 <Flex  w="100%" h="40px">
-                    <Link href='/profile' w="100%" mr="10px" ml="10px">
+                    <Link href='/Profile' w="100%" mr="10px" ml="10px">
                         <Button w="100%" borderRadius="full" bg="#F6E229" color="#303030" fontWeight={700} fontSize={f1} >완료</Button>
                     </Link>
                 </Flex>

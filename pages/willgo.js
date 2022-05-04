@@ -25,7 +25,7 @@ import {
         <div>
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">가볼래요</Text>
-                <Link href='/profile' position="absolute" right="11px" w="20px" h="20px">
+                <Link href='/Profile' position="absolute" right="11px" w="20px" h="20px">
                     <Image src={btnX} />
                 </Link>
             </Flex>
@@ -49,7 +49,7 @@ import {
                     <Image src={starF}/>
                 </Flex>
             </Flex>
-            <Link href='/memo'>
+            <Link href='/Memo'>
                 <Flex p="10px" h="50px" alignItems="center">
                     <Text fontSize={f2} color="#333333">가고싶은 이유가 있나요?</Text>
                     <Spacer/>
@@ -79,7 +79,7 @@ import {
                 </Flex>
             </Flex>
 
-            <Link href='/memo'>
+            <Link href='/Memo'>
                 <Flex p="10px" h="50px" alignItems="center">
                     <Text fontSize={f2} color="#333333">가고싶은 이유가 있나요?</Text>
                     <Spacer/>

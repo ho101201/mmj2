@@ -115,19 +115,19 @@ import {
                         <Select variant="unstyled" style={styles} placeholder="송파구 문정동" letterSpacing='-1px' ml="10px" fontSize={f2} iconSize='20px' w="115px" >
                         </Select>
                     </SelectBoxWrapper> */}
-                    <Link href='/setLocation' display="flex" flexDirection="row">
+                    <Link href='/SetLocation' display="flex" flexDirection="row">
                         <Text id='location' fontSize={f2} fontWeight="bold" ml="10px" mr="7px" >송파구 문정동</Text>
                         <Box w="12px" h="20px" position="absolute" left="104px" top="4px" >
                             <Image src={arrowB} />
                         </Box>
                     </Link>
                     <Spacer/>
-                    <Link href='/search'>
+                    <Link href='/Search'>
                         <Box w="20px" h="20px" mr="22px">
                             <Image src={search} />
                         </Box>
                     </Link>
-                    <Link href='/alarm'>
+                    <Link href='/Alarm'>
                         <Box w="20px" h="20px" mr="22px">
                             <Image src={bell} />
                         </Box>
@@ -142,7 +142,7 @@ import {
 
                 <HStack overflow="hidden" mt='20px' spacing="14.5px" whiteSpace="nowrap" overflowX='hide' >
                     {/* hilighted */}
-                    <Link href='/category'>
+                    <Link href='/Category'>
                         <Flex alignItems="center" justifyContent="center" ml="10px" position="relative">
                             <Box w="60px" h="60px">
                                 <Image src={iconBgA}/>
@@ -339,7 +339,7 @@ import {
 
                 <Flex direction="row" w="vw" h="60px" ml="10px" mr="10px" mt="30px" mb="30px" borderRadius="full" bg="#F6E229" justifyContent="center" alignItems="center" >
                     <Text fontSize={f2} fontWeight="bold" letterSpacing="-1px" align="center" mr="5px">아직도 뭐 먹을까 고민하세요 ?</Text>
-                    <Link href='/randomR1'>
+                    <Link href='/RandomR1'>
                         <Button fontSize={f3} fontWeight="medium" color="#ffffff" w="96px" h="30px" bg="#303030" borderRadius="full" ml="5px">랜덤 추천받기</Button>
                     </Link>
 
@@ -396,28 +396,28 @@ import {
                     <Flex direction="row" w="vw" mt="13px" >
                         <Spacer/>
                         <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
-                            <Link href='/home' w="24px" h="24px">
+                            <Link href='/Home' w="24px" h="24px">
                                 <Image src={homeA}/>
                             </Link>
                             <Text fontWeight="bold" fontSize="10px" align="center" >홈</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
-                            <Link href='/recommand' w="24px" h="24px">
+                            <Link href='/Recommand' w="24px" h="24px">
                                 <Image src={rec}/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >추천</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
-                            <Link href='/review' w="24px" h="24px">
+                            <Link href='/Review' w="24px" h="24px">
                                 <Image src={rev}/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >후기</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
-                            <Link href='/profile' w="24px" h="24px">
+                            <Link href='/Profile' w="24px" h="24px">
                                 <Image src={my}/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >마이</Text>

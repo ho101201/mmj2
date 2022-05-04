@@ -28,7 +28,7 @@ import {
                     <Image src={Search_Icons} />
                 </Box>
                 <Input fontSize={f2} color="#A4A4A4" placeholder='동명(읍,면)으로 검색 (ex. 문정동)' bg="#F6F6F6" mr="5px" h="30px"/>
-                <Link href='/home' w="20px" h="20px" ml="7px" mr="6px" > 
+                <Link href='/Home' w="20px" h="20px" ml="7px" mr="6px" > 
                     <Image src={btnX} />
                 </Link>
             </Flex>

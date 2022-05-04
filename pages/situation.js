@@ -37,7 +37,7 @@ export default function situation() {
         <div>
             <Flex w="vw" h="40px" alignItems="center" justifyContent="center" borderBottom="1px solid #DDDDDD">
                 <Flex ml="18px" alignItems="center">
-                    <Link href='/recommand' >
+                    <Link href='/Recommand' >
                         <Flex w="7px" h="16px">
                             <Image src={arrowL}/>
                         </Flex>

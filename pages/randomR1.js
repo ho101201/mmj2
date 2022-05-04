@@ -28,7 +28,7 @@ export default function random1() {
         <div>
             <Flex w="vw" h="40px" alignItems="center" justifyContent="center" borderBottom="1px solid #DDDDDD">
                 <Flex ml="18px" alignItems="center">
-                    <Link href='/home' >
+                    <Link href='/Home' >
                         <Flex w="7px" h="16px">
                             <Image src={arrowL}/>
                         </Flex>
@@ -92,7 +92,7 @@ export default function random1() {
 
                 <Flex direction="column" position="sticky" mr="10px" ml="10px" w="100%" bottom="0"  mt="50px" pb="20px">
                     <Flex  w="100%" h="40px">
-                        <Link href='/randomR2' w="100%" mr="10px" ml="10px">
+                        <Link href='/RandomR2' w="100%" mr="10px" ml="10px">
                             <Button w="100%" borderRadius="full" bg="#303030" color="#ffffff" fontWeight={500} fontSize={f1} >시작</Button>
                         </Link>
                     </Flex>

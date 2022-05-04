@@ -106,7 +106,7 @@ import {
                 <Spacer/>
             </Flex> 
 
-            <Text fontSize={f2} fontWeight="bold" align="center" mb="5px" mt="36px">매장이 어떤점이 좋았나요?</Text>
+            <Text fontSize={f2} fontWeight="bold" align="center" mb="5px" mt="36px">매장의 어떤점이 좋았나요?</Text>
 
             <Flex direction="row" alignItems="center" justifyContent="center" mb="25px">
                 <Flex w="30px" h="30px" onClick={()=>checking1()} m="5px">

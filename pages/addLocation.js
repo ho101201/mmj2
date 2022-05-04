@@ -23,7 +23,7 @@ import {
         <div>
             <Flex w="vw" h="42px" justifyContent="center" alignItems="center">
                 <Text fontSize={f1} fontWeight="bold" align="center">지역 설정</Text>
-                <Link href='/home' position="absolute" right="11px" w="20px" h="20px">
+                <Link href='/Home' position="absolute" right="11px" w="20px" h="20px">
                     <Image src={btnX} />
                 </Link>
             </Flex>

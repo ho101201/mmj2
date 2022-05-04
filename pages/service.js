@@ -20,12 +20,12 @@ export default function Service() {
         <div>
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">고객센터</Text>
-                <Link href='/profile' position="absolute" left="11px" w="20px" h="20px">
+                <Link href='/Profile' position="absolute" left="11px" w="20px" h="20px">
                     <Image src={arrowL} />
                 </Link>
             </Flex> 
             
-            <Link href='/announcement'>
+            <Link href='/Announcement'>
                 <Flex p="10px" h="50px" mt="10px">
                     <Text fontWeight="bold" fontSize={f2} color="#333333">공지사항</Text>
                     <Spacer/>

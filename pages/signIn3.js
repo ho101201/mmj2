@@ -86,7 +86,7 @@ export default function SignIn2() {
                 {/* header */}
                 <Flex w="vw" h="40px" alignItems="center" justifyContent="center" borderBottom="1px solid #DDDDDD">
                     <Flex ml="18px" alignItems="center">
-                        <Link href='/signIn2' mt="4px">
+                        <Link href='/SignIn2' mt="4px">
                             <Image src={arrowL}/>
                         </Link>
                     </Flex>
@@ -262,16 +262,28 @@ export default function SignIn2() {
                     
 
                 </Flex>
-                
                 <Spacer/>
+
                 {/* button */}
-                <Box p="10px" w="100vw" h="40px" mb="30px" position="sticky">
-                    <Link w="100%" href='/home' >
-                        <Button w="100%" borderRadius="full" bg="#303030" fontSize={f1} fontWeight="bold" color="#ffffff">
-                            동의하기
-                        </Button>
-                    </Link>
-                </Box>
+                {Check2&&Check3&&Check5&&Check6?
+                    <Box p="10px" w="100vw" h="40px" mb="30px" position="sticky">
+                        <Link w="100%" href='/Home' >
+                            <Button w="100%" borderRadius="full" bg="#303030" fontSize={f1} fontWeight="bold" color="#ffffff">
+                                동의하기
+                            </Button>
+                        </Link>
+                    </Box>
+                :
+                    <Box p="10px" w="100vw" h="40px" mb="30px" position="sticky">
+                        <Link w="100%" href='/Home' >
+                            <Button w="100%" borderRadius="full" bg="#303030" fontSize={f1} fontWeight="bold" color="#ffffff" isDisabled>
+                                동의하기
+                            </Button>
+                        </Link>
+                    </Box>
+                }
+
+
             </Flex>
 
         </div>

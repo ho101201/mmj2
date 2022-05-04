@@ -69,7 +69,7 @@ import checkW from './images/checkW.png';
         <div>
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">정보수정</Text>
-                <Link href='/profile' position="absolute" left="11px" w="20px" h="20px">
+                <Link href='/Profile' position="absolute" left="11px" w="20px" h="20px">
                     <Image src={arrowL} />
                 </Link>
             </Flex>
@@ -260,7 +260,7 @@ import checkW from './images/checkW.png';
             {!Check1&&!Check2&&!Check3&&!Check4&&!Check5&&!Check6&&!Check7 ?
                 <Flex direction="column" position="sticky" mr="10px"  w="100%" bottom="0"  mt="30px" pb="20px">
                     <Flex  w="100%" h="40px">
-                        <Link href='/willgo' w="100%" mr="10px" ml="10px">
+                        <Link href='/Willgo' w="100%" mr="10px" ml="10px">
                             <Button w="100%" borderRadius="full" bg="#F6E229" color="#303030" fontWeight={700} fontSize={f1} isDisabled>보내기</Button>
                         </Link>
                     </Flex>
@@ -268,7 +268,7 @@ import checkW from './images/checkW.png';
             :
                 <Flex direction="column" position="sticky" mr="10px"  w="100%" bottom="0"  mt="30px" pb="20px">
                     <Flex  w="100%" h="40px">
-                        <Link href='/cutlet_info' w="100%" mr="10px" ml="10px">
+                        <Link href='/CutletInfo' w="100%" mr="10px" ml="10px">
                             <Button w="100%" borderRadius="full" bg="#F6E229" color="#303030" fontWeight={700} fontSize={f1} >보내기</Button>
                         </Link>
                     </Flex>

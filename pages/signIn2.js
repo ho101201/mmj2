@@ -34,7 +34,7 @@ export default function SignIn2() {
                 {/* header */}
                 <Flex w="vw" h="40px" alignItems="center" justifyContent="center" borderBottom="1px solid #DDDDDD">
                     <Flex ml="18px" alignItems="center">
-                        <Link href='/signIn' mt="4px">
+                        <Link href='/SignIn' mt="4px">
                             <Image src={arrowL}/>
                         </Link>
                     </Flex>
@@ -89,7 +89,7 @@ export default function SignIn2() {
                     <Spacer/>
                     {/* button */}
                     <Box p="10px" w="100vw" h="40px" mb="30px">
-                        <Link w="100%" href='/signIn3' >
+                        <Link w="100%" href='/SignIn3' >
                             <Button w="100%" borderRadius="full" bg="#303030" fontSize={f1} fontWeight="bold" color="#ffffff" onMouseOver={()=>setbtnHover} >
                                 허용하기
                             </Button>

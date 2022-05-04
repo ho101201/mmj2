@@ -136,7 +136,7 @@ export default function SignIn() {
                 {/* sign in button */}
                 <Box p="10px" w="100vw" h="40px" mb="30px">
                     {/* 유효성검사  */}
-                    <Link w="100%" href='/signIn2' >
+                    <Link w="100%" href='/SignIn2' >
                         <Button w="100%" borderRadius="full" bg="#F6E229" fontSize={f1} fontWeight="bold" _hover={btnHover} >
                             가입하기
                         </Button>

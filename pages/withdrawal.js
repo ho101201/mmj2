@@ -37,7 +37,7 @@ export default function withdrawal() {
         <div>
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">회원탈퇴</Text>
-                <Link href='/profile' position="absolute" left="11px" w="20px" h="20px">
+                <Link href='/Profile' position="absolute" left="11px" w="20px" h="20px">
                     <Image src={arrowL} />
                 </Link>
             </Flex> 
@@ -52,25 +52,25 @@ export default function withdrawal() {
             <Flex h="92px">
                 <Spacer/>
                     <Flex w="67px" direction="column" justifyContent="center">
-                        <Link href='/willgo'>
+                        <Link href='/Willgo'>
                             <Text fontSize={f1} fontWeight="bold" align="center">999</Text>
                             <Text fontSize="10px" align="center" >작성후기</Text>
                         </Link>
                     </Flex>
                     <Flex w="67px" direction="column" justifyContent="center">
-                        <Link href='/went'>
+                        <Link href='/Went'>
                             <Text fontSize={f1} fontWeight="bold" align="center">999</Text>
                             <Text fontSize="10px" align="center" >좋아요</Text>
                         </Link>
                     </Flex>
                     <Flex w="67px" direction="column" justifyContent="center">
-                        <Link href='/review'>
+                        <Link href='/Review'>
                             <Text fontSize={f1} fontWeight="bold" align="center">999</Text>
                             <Text fontSize="10px" align="center" >정보수정</Text>
                         </Link> 
                     </Flex>
                     <Flex w="67px" direction="column" justifyContent="center">
-                        <Link href='/like'>
+                        <Link href='/Like'>
                             <Text fontSize={f1} fontWeight="bold" align="center">완료</Text>
                             <Text fontSize="10px" align="center" >입맛테스트</Text>
                         </Link>
@@ -140,7 +140,7 @@ export default function withdrawal() {
             {Check1 && Check2?
                 <Flex direction="column" position="sticky" mr="10px"  w="100%" bottom="0"  mt="30px" pb="20px" is>
                     <Flex  w="100%" h="40px">
-                        <Link href='/index' w="100%" mr="10px" ml="10px">
+                        <Link href='/Index' w="100%" mr="10px" ml="10px">
                             <Button w="100%" borderRadius="full" bg="#F6E229" color="#303030" fontWeight={700} fontSize={f1}>탈퇴하기</Button>
                         </Link>
                     </Flex>
@@ -148,7 +148,7 @@ export default function withdrawal() {
             :
                 <Flex direction="column" position="sticky" mr="10px"  w="100%" bottom="0"  mt="30px" pb="20px" is>
                     <Flex  w="100%" h="40px">
-                        <Link href='#' w="100%" mr="10px" ml="10px">
+                        <Link href='/' w="100%" mr="10px" ml="10px">
                             <Button w="100%" borderRadius="full" bg="#F6E229" color="#303030" fontWeight={700} fontSize={f1} isDisabled>탈퇴하기</Button>
                         </Link>
                     </Flex>

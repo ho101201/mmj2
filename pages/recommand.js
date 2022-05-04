@@ -68,7 +68,7 @@ export default function recommand() {
                 </Flex>
 
                 <Flex direction="row" justifyContent="center" m="15px" mb="25px" position="sticky" bottom="100px" >
-                    <Link href='/situation' w="100%" mr="5px">
+                    <Link href='/Situation' w="100%" mr="5px">
                         <Button w="100%" h="40px" bg="#ffffff" color="#303030" border="1px solid #303030" borderRadius="full" fontSize={f1} fontWeight="bold" >상황 따라</Button>
                     </Link>
                     <Link  w="100%"  ml="5px">
@@ -83,28 +83,28 @@ export default function recommand() {
                     <Flex direction="row" w="vw" mt="13px" >
                         <Spacer/>
                         <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
-                            <Link href='/home' w="24px" h="24px">
+                            <Link href='/Home' w="24px" h="24px">
                                 <Image src={home}/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >홈</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
-                            <Link href='/recommand' w="24px" h="24px">
+                            <Link href='/Recommand' w="24px" h="24px">
                                 <Image src={recA}/>
                             </Link>
                             <Text fontWeight="bold" fontSize="10px" align="center" >추천</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
-                            <Link href='/review' w="24px" h="24px">
+                            <Link href='/Review' w="24px" h="24px">
                                 <Image src={rev}/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >후기</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
-                            <Link href='/profile' w="24px" h="24px">
+                            <Link href='/Profile' w="24px" h="24px">
                                 <Image src={my}/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >마이</Text>

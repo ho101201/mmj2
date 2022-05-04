@@ -6,23 +6,22 @@ import {
     Link,
     Button,
     Grid,
-    GridItem,
-    useRadio,
-    useRadioGroup,
-    HStack
-
-    
+    GridItem, 
+    Tag
   } from '@chakra-ui/react';
   // import { Link } from 'next/link';
   import Image from 'next/image';
   import { 
-    useState,
+    useState, 
 } from 'react';
  
 import arrowL from './images/arrowL.png';
 import Export from './images/export.png';
 import gallery from './images/gallery.png';
 import starF from './images/starF.png';
+import user from './images/user.png';
+import foodExample from './images/photo/foodExample.png';
+
 
 import p1 from './images/photo/photoEx1.png';
 import p2 from './images/photo/photoEx2.png';
@@ -38,62 +37,17 @@ import review from './images/navIcons/icon_rev.png';
 import location from './images/navIcons/icon_loc.png';
 import call from './images/navIcons/icon_call.png';
 
-// 라디오 버튼 스타일
-function RadioCard(props) {
-    const { getInputProps, getCheckboxProps } = useRadio(props)
-  
-    const input = getInputProps()
-    const checkbox = getCheckboxProps()
-  
-    return (
-      <Box as='label'>
-        <input {...input} />
-        <Box
-          {...checkbox}
-          cursor='pointer'
-          border="1px solid #E1E1E1"
-          borderRadius='full'
-          fontSize="10px"
-          fontWeight={500}
-
-          _checked={{
-            bg: '#F6E229',
-            borderColor: 'none',
-          }}
-          _focus={{
-            
-          }}
-          px={2.5}
-          py={1}
-        >
-          {props.children}
-        </Box>
-      </Box>
-    )
-  }
-
-export default function rPhoto() {
+export default function rRev() {
 
     const f1 ="16px";
     const f2 ="14px";
-    const f3 ="12px";
-
-    const options = ['전체', '업체', '방문자','음식', '매장' ]
-
-    const { getRootProps, getRadioProps } = useRadioGroup({
-        name: 'catalog',
-        defaultValue: '전체',
-        onChange: console.log,
-      })
-
-    const group = getRootProps()
-    
+    const f3 ="12px"; 
 
     return(
         <div>
             <Flex w="vw" h="40px" alignItems="center" justifyContent="center" borderBottom="1px solid #DDDDDD">
                 <Flex ml="18px" alignItems="center">
-                    <Link href='/randomR2' >
+                    <Link href='/RandomR2' >
                         <Flex w="7px" h="16px">
                             <Image src={arrowL}/>
                         </Flex>
@@ -158,46 +112,105 @@ export default function rPhoto() {
 
             <Grid templateColumns="repeat(5,1fr)" h="50px">
                 <GridItem display="flex" alignItems="center" justifyContent="center" borderBottom="2px solid #303030">
-                    <Link href='/cutlet_info'>
+                    <Link href='/CutletInfo'>
                         <Text fontSize={f2} fontWeight="bold" align="center" >정보</Text>
                     </Link>
                 </GridItem>
                 <GridItem display="flex" alignItems="center" justifyContent="center" borderBottom="2px solid #303030">
-                    <Link href='/cutlet_work'>
+                    <Link href='/CutletWork'>
                         <Text fontSize={f2} fontWeight="medium" align="center">영업</Text>
                     </Link>
                 </GridItem>
                 <GridItem display="flex" alignItems="center" justifyContent="center"  borderBottom="2px solid #303030">
-                    <Link href='/cutlet_menu'>
+                    <Link href='/CutletMenu'>
                         <Text fontSize={f2} fontWeight="medium" align="center">메뉴</Text>
                     </Link>
                 </GridItem>
-                <GridItem display="flex" alignItems="center" justifyContent="center"  borderBottom="2px solid #F6E229">
-                    <Link href='/cutlet_photo'>
+                <GridItem display="flex" alignItems="center" justifyContent="center"  borderBottom="2px solid #303030">
+                    <Link href='/CutletPhoto'>
                         <Text fontSize={f2} fontWeight="medium" align="center">사진</Text>
                     </Link>
                 </GridItem>
-                <GridItem display="flex" alignItems="center" justifyContent="center"  borderBottom="2px solid #303030">
-                    <Link href='/cutlet_review'>
+                <GridItem display="flex" alignItems="center" justifyContent="center"  borderBottom="2px solid #F6E229">
+                    <Link href='/CutletReview'>
                         <Text fontSize={f2} fontWeight="medium" align="center">후기</Text>
                     </Link>
                 </GridItem>
             </Grid>
 
-            <HStack {...group} mt="31px" ml="10px">
-                {options.map((value) => {
-                    const radio = getRadioProps({ value })
-                    return (
-                    <RadioCard key={value} {...radio}>
-                        {value}
-                    </RadioCard>
-                    )
-                })}
-            </HStack>
-
             <Flex m="10px" direction="column">
+                <Text fontSize={f1} fontWeight="bold" mt="15px">후기 (100)</Text>
 
-                <Text fontSize={f1} fontWeight="bold" mt="15px">사진 (100)</Text>
+                <Flex direction="column" w="vw" mt="16px">
+                    <Flex direction="row">
+                        <Flex w="50px" h="50px" >
+                            <Image src={user}/>
+                        </Flex>
+                        <Flex ml="12px" direction="column" justifyContent="center">
+                            <Text fontSize={f2} >유저닉네임</Text>
+                            <Text fontSize="10px" color="#565656">2022.03.01  1번째 방문</Text>
+                        </Flex>
+                        <Spacer/>
+                        <Flex direction="row" alignItems="center">
+                            <Flex w="13px" h="13px" mr="5px">
+                                <Image src={starF}/>
+                            </Flex>
+                            <Text fontWeight="bold" fontSize={f2}>4.5</Text>
+                        </Flex>
+                    </Flex>
+                    <Flex mt="12px">
+                        <Image src={foodExample}/>
+                    </Flex>
+
+                    <Text id='userReview1' mt="12px">
+                        후기텍스트후기텍스트후기텍스트후기텍스트후기텍스트
+                        후기텍스트후기텍스트후기텍스트후기텍스트후기텍스트
+                        후기텍스트후기텍스트후기텍스트후기텍스트후기텍스트
+                        후기텍스트
+                    </Text>
+
+                    <Flex mt="41px">
+                        <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">점심식사</Tag>
+                        <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">후기태그</Tag>
+                    </Flex>
+                </Flex>
+
+                <Box w="vw" bg="#F6F6F6" h="2px" mt="30px" mb="20px"/>
+
+                <Flex direction="column" w="vw" mt="16px">
+                    <Flex direction="row">
+                        <Flex w="50px" h="50px" >
+                            <Image src={user}/>
+                        </Flex>
+                        <Flex ml="12px" direction="column" justifyContent="center">
+                            <Text fontSize={f2} >유저닉네임</Text>
+                            <Text fontSize="10px" color="#565656">2022.03.01  1번째 방문</Text>
+                        </Flex>
+                        <Spacer/>
+                        <Flex direction="row" alignItems="center">
+                            <Flex w="13px" h="13px" mr="5px">
+                                <Image src={starF}/>
+                            </Flex>
+                            <Text fontWeight="bold" fontSize={f2}>4.5</Text>
+                        </Flex>
+                    </Flex>
+
+                    <Text id='userReview1' mt="12px">
+                        후기텍스트후기텍스트후기텍스트후기텍스트후기텍스트
+                        후기텍스트후기텍스트후기텍스트후기텍스트후기텍스트
+                        후기텍스트후기텍스트후기텍스트후기텍스트후기텍스트
+                        후기텍스트
+                    </Text>
+
+                    <Flex mt="41px">
+                        <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">점심식사</Tag>
+                        <Tag border="1px solid #E1E1E1" color="#A4A4A4" bg="#ffffff" mr="5px">후기태그</Tag>
+                    </Flex>
+                </Flex>
+
+                <Box w="vw" bg="#F6F6F6" h="2px" mt="30px" mb="20px"/>
+
+                <Text fontSize={f1} fontWeight="bold" mt="15px">방문자 사진 (100)</Text>
                 
                 <Grid templateColumns="repeat(3, 1fr)" templateRows="repeat(2, 1fr)" mt='13px' mb="46px" gap={1} >
                     <GridItem>
@@ -228,7 +241,6 @@ export default function rPhoto() {
                         <Image src={p1}/>
                     </GridItem>
                 </Grid>
-
             </Flex>
 
             {/* tapbar */}
@@ -236,30 +248,27 @@ export default function rPhoto() {
                     <Flex direction="row" w="vw" mt="13px" >
                         <Spacer/>
                         <Flex direction="column" alignItems="center" justifyContent="center" ml="40px" mr="40px">
-                            <Link href='/cutlet_info' w="24px" h="24px">
+                            <Link href='/WritingRev' w="24px" h="24px">
                                 <Image src={review}/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >후기쓰기</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" alignItems="center" justifyContent="center" ml="40px" mr="40px">
-                            <Link href='/cutlet_info' w="24px" h="24px">
+                            <Link w="24px" h="24px">
                                 <Image src={call}/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >전화</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" alignItems="center" justifyContent="center" ml="40px" mr="40px">
-                            <Link href='/cutlet_info' w="24px" h="24px">
+                            <Link w="24px" h="24px">
                                 <Image src={location}/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >길찾기</Text>
                         </Flex>
                         <Spacer/>
 
-                    </Flex>
-                    <Flex justifyContent="center" mt="8px">
-                        <Box w="135px" h="5px" opacity={26} bg="rgb(0, 0, 0, 0.26)" borderRadius="full"/>
                     </Flex>
                 </Box>
 

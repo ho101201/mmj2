@@ -20,7 +20,7 @@ export default function ann() {
         <div>
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">공지사항</Text>
-                <Link href='/service' position="absolute" left="11px" w="20px" h="20px">
+                <Link href='/Service' position="absolute" left="11px" w="20px" h="20px">
                     <Image src={arrowL} />
                 </Link>
             </Flex> 
@@ -46,7 +46,7 @@ export default function ann() {
                 </Text>
             </Flex>
 
-            <Link >
+            <Link>
                 <Flex p="10px" h="50px" alignItems="center" border="1px solid #F6F6F6">
                     <Text fontWeight="bold" fontSize={f2} color="#333333" >공지사항리스트</Text>
                     <Spacer/>

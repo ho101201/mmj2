@@ -24,7 +24,7 @@ import {
         <div>
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">입맛설정</Text>
-                <Link href='/profile' position="absolute" left="11px" w="20px" h="20px">
+                <Link href='/Profile' position="absolute" left="11px" w="20px" h="20px">
                     <Image src={arrowL} />
                 </Link>
             </Flex>

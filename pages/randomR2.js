@@ -26,7 +26,7 @@ export default function random2() {
         <div>
             <Flex w="vw" h="40px" alignItems="center" justifyContent="center" borderBottom="1px solid #DDDDDD">
                 <Flex ml="18px" alignItems="center">
-                    <Link href='/randomR1' >
+                    <Link href='/RandomR1' >
                         <Flex w="7px" h="16px">
                             <Image src={arrowL}/>
                         </Flex>
@@ -51,7 +51,7 @@ export default function random2() {
                 <Text fontSize={f2} fontWeight="medium">음식점 ▶ 일식 ▶ 돈까스</Text>
 
                 <Flex alignItems="center" justifyContent="center">
-                    <Link href='/cutlet_info'>
+                    <Link href='/CutletInfo'>
                         <Button h="30px" mt="17px" fontSize={f3} bg="#F6E229" border="1px solid #303030" borderRadius="full">상세정보 보기</Button>
                     </Link>
                 </Flex>
@@ -59,7 +59,7 @@ export default function random2() {
 
                 <Flex direction="column" position="sticky" mr="10px" ml="10px" w="100%" bottom="0"  mt="55px" pb="20px">
                     <Flex  w="100%" h="40px">
-                        <Link href='/randomR1' w="100%" mr="10px" ml="10px">
+                        <Link href='/RandomR1' w="100%" mr="10px" ml="10px">
                             <Button w="100%" borderRadius="full" bg="#303030" color="#ffffff" fontWeight={500} fontSize={f1} >다시하기</Button>
                         </Link>
                     </Flex>
