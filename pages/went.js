@@ -80,7 +80,7 @@ import {
 
             <Flex direction='row' p="10px" alignItems="center" h="126px" mt="10px">
                 <Flex w="85px" h="85px" borderRadius="10px" overflow="hidden">
-                    <Image src={p1} />
+                    <Image src={p1} alt="p1"/>
                 </Flex>
                 <Flex direction="column" ml='10px'>
                     <Text fontWeight="bold" fontSize={f2}>카츠단길</Text>

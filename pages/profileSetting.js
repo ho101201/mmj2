@@ -59,7 +59,7 @@ export default function PfSet() {
 
             <Flex alignItems="center" justifyContent='center' mt="20px" mb="20px">
                 <Flex w="50px" h='50px' alignItems="center" justifyContent='center' >
-                    <Image src={addphoto2}/>
+                    <Image src={addphoto2} alt="addphoto2"/>
                     <Flex w="24px" h='18px' ml="1px" mt="-1px" position="absolute">
                         <Image src={addphoto1} alt="addphoto1"/>
                     </Flex>

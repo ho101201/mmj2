@@ -157,7 +157,7 @@ import {
 
             <Flex direction="row" p="10px" mt='24px'>
                 <Flex w="60px" h="60px">
-                    <Image src={camera}/>
+                    <Image src={camera} alt="camera"/>
                 </Flex>
                 <Flex direction="column" ml="10px">
                     <Text fontSize={f3} fontWeight="bold" mb="5px">사진/동영상 첨부하기</Text>
@@ -171,7 +171,7 @@ import {
                     <Text fontSize={f2} color="#333333" >#태그 입력</Text>
                     <Spacer/>
                     <Flex w="7px" h="10px">
-                        <Image src={arrowR}/>
+                        <Image src={arrowR} alt="arrowR"/>
                     </Flex>
                 </Flex>
             </Link>

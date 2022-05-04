@@ -44,7 +44,7 @@ export default function Random1() {
             </Flex>
             <Flex w="vw" direction="column" alignItems='center' justifyContent="center" mt="20px">
                 <Flex w="40px" h="40px">
-                    <Image src={circleY}/>
+                    <Image src={circleY} alt="circleY"/>
                     <Flex  w="18px" h="18px" mt="11px" ml="11px" position="absolute" >
                         <Image src={FNK} alt="FNK"/>
                     </Flex>

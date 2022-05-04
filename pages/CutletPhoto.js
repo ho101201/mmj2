@@ -127,7 +127,7 @@ export default function RPhoto() {
                                 <Image src={gallery}/>
                             </Flex>
                         </Flex> */}
-                        <Image src={p5}/>
+                        <Image src={p5} alt="p5"/>
                     </Link>
                 </GridItem>
             </Grid>

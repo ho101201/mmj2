@@ -5,12 +5,10 @@ import {
     Spacer,
     Link,
     Button,
-    useDisclosure,
-    useMediaQuery,
     Grid,
     GridItem,
     Wrap, 
-    SWrapItem,
+    WrapItem,
     Tag
   } from '@chakra-ui/react';
   // import { Link } from 'next/link';
@@ -96,7 +94,7 @@ export default function RInfo() {
                 <Spacer/>
                 <Flex direction="row" alignItems="center">
                     <Flex w="13px" h="13px" mr="5px">
-                        <Image src={starF}/>
+                        <Image src={starF} alt="starF"/>
                     </Flex>
                     <Text fontWeight="bold" fontSize={f2}>4.5 <text fontWeight="medium">(10)</text></Text>
                 </Flex>
@@ -140,7 +138,7 @@ export default function RInfo() {
 
             <Flex m="10px" direction="column">
                 <Text fontSize={f1} fontWeight="bold" mt="15px">매장 소개</Text>
-                <Text fontSize={f2} mt="8px">"상위1% 프리미엄 돈카츠입니다."</Text>
+                <Text fontSize={f2} mt="8px">&#34;상위1% 프리미엄 돈카츠입니다.&#34;</Text>
                 <Flex direction="row" alignItems="center" mt='53px '>
                     <Text fontSize={f1} fontWeight="bold">매장 Tip</Text>
                     <Spacer/>
@@ -204,7 +202,6 @@ export default function RInfo() {
                             <Text fontWeight="medium" fontSize="10px" align="center" >길찾기</Text>
                         </Flex>
                         <Spacer/>
-
                     </Flex>
                 </Box>
         </div>

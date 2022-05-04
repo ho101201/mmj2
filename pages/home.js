@@ -306,16 +306,16 @@ import {
                     <Text fontSize={f1} fontWeight="bold" >최근에 먹은 것들</Text>
                     <HStack spacing="10px" mt="11px">
                         <Box w="90px" h="90px" bg="gray.200">
-                            <Image src={p1}/>
+                            <Image src={p1} alt="p1"/>
                         </Box>
                         <Box w="90px" h="90px" bg="gray.200">
-                            <Image src={p2}/>
+                            <Image src={p2} alt="p2"/>
                         </Box>
                         <Box w="90px" h="90px" bg="gray.200">
-                            <Image src={p3}/>
+                            <Image src={p3} alt="p3"/>
                         </Box>
                         <Box w="90px" h="90px" bg="gray.200">
-                            <Image src={pd}/>
+                            <Image src={pd} alt="pd"/>
                         </Box>
                     </HStack>
                 </Box>

@@ -15,7 +15,7 @@ import circleG from './images/EllipseG.png';
 import checkB from './images/checkB.png';
 import checkW from './images/checkW.png';
 
-export default function withdrawal() {
+export default function Withdrawal() {
 
     
     const [Check1, setCheck1] = useState(false);
