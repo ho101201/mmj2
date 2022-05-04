@@ -21,7 +21,7 @@ import {
  
 import arrowL from './images/arrowL.png';
 import arrowR from './images/arrowR.png';
-import exportBtn from './images/export.png';
+import exportBtn from './images/exportBtn.png';
 import gallery from './images/gallery.png';
 import starF from './images/starF.png';
 import Exclamation from './images/Exclamation.png';
@@ -36,7 +36,7 @@ import review from './images/navIcons/icon_rev.png';
 import location from './images/navIcons/icon_loc.png';
 import call from './images/navIcons/icon_call.png';
 
-export default function rInfo() {
+export default function RInfo() {
 
     const f1 ="16px";
     const f2 ="14px";
@@ -48,7 +48,7 @@ export default function rInfo() {
                 <Flex ml="18px" alignItems="center">
                     <Link href='/RandomR2' >
                         <Flex w="7px" h="16px">
-                            <Image src={arrowL}/>
+                            <Image src={arrowL} alt="arrowL"/>
                         </Flex>
                     </Link>
                 </Flex>
@@ -57,21 +57,21 @@ export default function rInfo() {
                     카츠단길
                 </Text>
                 <Flex w="20px" h="20px" mr="9px">
-                    <Image src={exportBtn}/>
+                    <Image src={exportBtn} alt="exportBtn"/>
                 </Flex>
             </Flex>
             <Grid templateRows='repeat( 2, 1fr )' templateColumns='repeat( 4, 1fr )' gap={0} >
                 <GridItem colSpan={2} rowSpan={2} >
-                    <Image src={p1}/>
+                    <Image src={p1} alt="p1"/>
                 </GridItem>
                 <GridItem colSpan={1} rowSpan={1} >
-                    <Image src={p2}/>
+                    <Image src={p2} alt="p2"/>
                 </GridItem>
                 <GridItem colSpan={1} rowSpan={1} >
-                    <Image src={p3}/>
+                    <Image src={p3} alt="p3"/>
                 </GridItem>
                 <GridItem colSpan={1} rowSpan={1} mt="-5px">
-                    <Image src={p4}/>
+                    <Image src={p4} alt="p4"/>
                 </GridItem>
                 <GridItem colSpan={1} rowSpan={1} mt="-5px"  w="100%" h="100%">
                     <Link href='/'>
@@ -80,7 +80,7 @@ export default function rInfo() {
                                 <Image src={gallery}/>
                             </Flex>
                         </Flex> */}
-                        <Image src={p5}/>
+                        <Image src={p5} alt="p5"/>
                     </Link>
                 </GridItem>
             </Grid>
@@ -166,12 +166,12 @@ export default function rInfo() {
                 <Link href='/FixInfo'>
                     <Flex alignItems='center' h='50px'>
                         <Flex w="15px" h="15px" mr='11px'>
-                            <Image src={Exclamation}/>
+                            <Image src={Exclamation} alt="exclamation"/>
                         </Flex>
                         <Text fontSize={f3} letterSpacing="-1px">잘못된 정보를 알려주세요</Text>
                         <Spacer/>
                         <Flex w="6px" h="10px">
-                            <Image src={arrowR}/>
+                            <Image src={arrowR} alt="arrowR"/>
                         </Flex>
                     </Flex>
                 </Link>
@@ -185,21 +185,21 @@ export default function rInfo() {
                         <Spacer/>
                         <Flex direction="column" alignItems="center" justifyContent="center" ml="40px" mr="40px">
                             <Link href='/WritingRev' w="24px" h="24px">
-                                <Image src={review}/>
+                                <Image src={review} alt="review"/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >후기쓰기</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" alignItems="center" justifyContent="center" ml="40px" mr="40px">
                             <Link w="24px" h="24px">
-                                <Image src={call}/>
+                                <Image src={call} alt="call"/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >전화</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" alignItems="center" justifyContent="center" ml="40px" mr="40px">
                             <Link w="24px" h="24px">
-                                <Image src={location}/>
+                                <Image src={location} alt="location"/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >길찾기</Text>
                         </Flex>

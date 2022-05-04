@@ -14,7 +14,7 @@ import {
 
 
 
-  export default function taste() {
+  export default function Taste() {
 
     const f1 ="16px";
     const f2 ="14px";
@@ -25,7 +25,7 @@ import {
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">입맛설정</Text>
                 <Link href='/Profile' position="absolute" left="11px" w="20px" h="20px">
-                    <Image src={arrowL} />
+                    <Image src={arrowL} alt="arrowL"/>
                 </Link>
             </Flex>
 
@@ -33,7 +33,7 @@ import {
                 <Text fontSize={f2} color="#333333" fontWeight="bold">좋아하는 음식</Text>
                 <Spacer/>
                 <Flex w="16px" h="10px">
-                    <Image src={arrowB}/>
+                    <Image src={arrowB} alt="arrowB"/>
                 </Flex>
             </Flex>
 
@@ -41,7 +41,7 @@ import {
                 <Text fontSize={f2} color="#333333" fontWeight="bold" borderBottom="1px solid #F6F6F6">싫어하는 음식</Text>
                 <Spacer/>
                 <Flex w="16px" h="10px">
-                    <Image src={arrowB}/>
+                    <Image src={arrowB} alt="arrowB"/>
                 </Flex>
             </Flex>
 

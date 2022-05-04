@@ -30,7 +30,7 @@ import addphoto1 from './images/addphoto1.png';
 import addphoto2 from './images/addphoto2.png';
 
 
-export default function pfSet() {
+export default function PfSet() {
 
     const f1 ="16px";
     const f2 ="14px";
@@ -47,7 +47,7 @@ export default function pfSet() {
                 <Flex ml="18px" alignItems="center">
                     <Link href='/Profile' >
                         <Flex w="7px" h="16px">
-                            <Image src={arrowL}/>
+                            <Image src={arrowL} alt="arrowL"/>
                         </Flex>
                     </Link>
                 </Flex>
@@ -61,7 +61,7 @@ export default function pfSet() {
                 <Flex w="50px" h='50px' alignItems="center" justifyContent='center' >
                     <Image src={addphoto2}/>
                     <Flex w="24px" h='18px' ml="1px" mt="-1px" position="absolute">
-                        <Image src={addphoto1} />
+                        <Image src={addphoto1} alt="addphoto1"/>
                     </Flex>
                 </Flex>
             </Flex>

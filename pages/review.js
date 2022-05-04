@@ -28,7 +28,7 @@ import revA from './images/navIcons/icon_revA.png';
 import my from './images/navIcons/icon_my.png';
 import myA from './images/navIcons/icon_myA.png';
 
-export default function review() {
+export default function Review() {
 
     const f1 ="16px";
     const f2 ="14px";
@@ -41,7 +41,7 @@ export default function review() {
                 <Link href='/AddLocation' display="flex" flexDirection="row">
                     <Text id='location' fontSize={f2} fontWeight="bold" ml="10px" mr="7px" color="#333333" >전체지역</Text>
                     <Box w="12px" h="20px" position="absolute" left="75px" top="4px" >
-                        <Image src={arrowB} />
+                        <Image src={arrowB} alt="arrowB"/>
                     </Box>
                 </Link>
                 <Spacer/>
@@ -57,7 +57,7 @@ export default function review() {
                 <Text fontSize={f1} fontWeight="bold" mt="18px" mb="16px" >카츠단길 문정역</Text>
                 <Flex direction="row">
                     <Flex w="50px" h="50px" >
-                        <Image src={user}/>
+                        <Image src={user} alt="user"/>
                     </Flex>
                     <Flex ml="12px" direction="column" justifyContent="center">
                         <Text fontSize={f2} >유저닉네임</Text>
@@ -66,13 +66,13 @@ export default function review() {
                     <Spacer/>
                     <Flex direction="row" alignItems="center">
                         <Flex w="13px" h="13px" mr="5px">
-                            <Image src={starF}/>
+                            <Image src={starF} alt="starF"/>
                         </Flex>
                         <Text fontWeight="bold" fontSize={f2}>4.5</Text>
                     </Flex>
                 </Flex>
                 <Flex mt="12px">
-                    <Image src={p0}/>
+                    <Image src={p0} alt="p0"/>
                 </Flex>
 
                 <Text id='userReview1' mt="12px" >
@@ -93,19 +93,19 @@ export default function review() {
                 <Grid templateColumns="repeat(3,1fr)" borderTop="1px solid #E8E8E8" h="62px" mt="30px">
                     <GridItem display="flex" flexDirection="row" alignItems="center" justifyContent='center'>
                         <Flex w="12px" h="12px" mr="7px">
-                            <Image src={starB}/>
+                            <Image src={starB} alt="starB"/>
                         </Flex>
                         <Text fontSize={f2} color="#565656">가볼래요</Text>
                     </GridItem>
                     <GridItem display="flex" flexDirection="row" alignItems="center" justifyContent='center'>
                         <Flex w="12px" h="12px" mr="7px">
-                            <Image src={heart}/>
+                            <Image src={heart} alt="heart"/>
                         </Flex>
                         <Text fontSize={f2} color="#565656">좋아요</Text>
                     </GridItem>
                     <GridItem display="flex" flexDirection="row" alignItems="center" justifyContent='center'>
                         <Flex w="12px" h="12px" mr="7px">
-                            <Image src={comment}/>
+                            <Image src={comment} alt="comment"/>
                         </Flex>
                         <Text fontSize={f2} color="#565656">댓글</Text>
                     </GridItem>
@@ -117,28 +117,28 @@ export default function review() {
                     <Spacer/>
                     <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
                         <Link href='/Home' w="24px" h="24px">
-                            <Image src={home}/>
+                            <Image src={home} alt="home"/>
                         </Link>
                         <Text fontWeight="medium" fontSize="10px" align="center" >홈</Text>
                     </Flex>
                     <Spacer/>
                     <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
                         <Link href='/Recommand' w="24px" h="24px">
-                            <Image src={rec}/>
+                            <Image src={rec} alt="rec"/>
                         </Link>
                         <Text fontWeight="medium" fontSize="10px" align="center" >추천</Text>
                     </Flex>
                     <Spacer/>
                     <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
                         <Link href='/Review' w="24px" h="24px">
-                            <Image src={revA}/>
+                            <Image src={revA} alt="revA"/>
                         </Link>
                         <Text fontWeight="bold" fontSize="10px" align="center" >후기</Text>
                     </Flex>
                     <Spacer/>
                     <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
                         <Link href='/Profile' w="24px" h="24px">
-                            <Image src={my}/>
+                            <Image src={my} alt="my"/>
                         </Link>
                         <Text fontWeight="medium" fontSize="10px" align="center" >마이</Text>
                     </Flex>

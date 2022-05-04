@@ -35,7 +35,7 @@ import revA from './images/navIcons/icon_revA.png';
 import my from './images/navIcons/icon_my.png';
 import myA from './images/navIcons/icon_myA.png';
 
-export default function profile() {
+export default function Profile() {
 
     const f1 ="16px";
     const f2 ="14px";
@@ -45,7 +45,7 @@ export default function profile() {
         <div>
             <Flex w="vw" h="140px" direction="column" alignItems="center" justifyContent="center" mb="10px">
                 <Flex w="50px" h="50px">
-                    <Image src={user}/>
+                    <Image src={user} alt="user"/>
                 </Flex>
                 <Text fontSize={f2} fontWeight="bold" mt="4px" mb="4px" letterSpacing="-1px" >유저닉네임</Text>
                 <Link href='/ProfileSetting'>
@@ -86,25 +86,25 @@ export default function profile() {
             <Link href='/myPhoto'>
                 <Box w="100%"   whiteSpace="nowrap" overflowX='auto' >
                     <Flex w="110px" h='110px' ml="10px"  display="inline-block" >
-                        <Image src={p8} />
+                        <Image src={p8} alt="p8"/>
                     </Flex>
                     <Flex w="110px" h='110px' display="inline-block">
-                        <Image src={p9} />
+                        <Image src={p9} alt="p9"/>
                     </Flex>
                     <Flex w="110px" h='110px'  display="inline-block">
-                        <Image src={p3} />
+                        <Image src={p3} alt="p3"/>
                     </Flex>
                     <Flex w="110px" h='110px' display="inline-block">
-                        <Image src={p4} />
+                        <Image src={p4} alt="p4"/>
                     </Flex>
                     <Flex w="110px" h='110px' display="inline-block">
-                        <Image src={p5} />
+                        <Image src={p5} alt="p5"/>
                     </Flex>
                     <Flex w="110px" h='110px' display="inline-block">
-                        <Image src={p6} />
+                        <Image src={p6} alt="p6"/>
                     </Flex>
                     <Flex w="110px" h='110px' display="inline-block">
-                        <Image src={p7} />
+                        <Image src={p7} alt="p7"/>
                     </Flex>
                 </Box>
             </Link>
@@ -114,7 +114,7 @@ export default function profile() {
                     <Text fontSize={f2} color="#333333">입맛 설정</Text>
                     <Spacer/>
                     <Flex w="7px" h="10px">
-                        <Image src={arrowR}/>
+                        <Image src={arrowR} alt="arrowR"/>
                     </Flex>
                 </Flex>
             </Link>
@@ -124,7 +124,7 @@ export default function profile() {
                     <Text fontSize={f2} color="#333333" >앱 설정</Text>
                     <Spacer/>
                     <Flex w="7px" h="10px">
-                        <Image src={arrowR}/>
+                        <Image src={arrowR} alt="arrowR"/>
                     </Flex>
                 </Flex>
             </Link>
@@ -134,7 +134,7 @@ export default function profile() {
                     <Text fontSize={f2} color="#333333">고객센터</Text>
                     <Spacer/>
                     <Flex w="7px" h="10px">
-                        <Image src={arrowR}/>
+                        <Image src={arrowR} alt="arrowR"/>
                     </Flex>
                 </Flex>
             </Link>
@@ -158,28 +158,28 @@ export default function profile() {
                         <Spacer/>
                         <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
                             <Link href='/Home' w="24px" h="24px">
-                                <Image src={home}/>
+                                <Image src={home} alt="home"/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >홈</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
                             <Link href='/Recommand' w="24px" h="24px">
-                                <Image src={rec}/>
+                                <Image src={rec} alt="rec"/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >추천</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
                             <Link href='/Review' w="24px" h="24px">
-                                <Image src={rev}/>
+                                <Image src={rev} alt="rev"/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >후기</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
                             <Link href='/Profile' w="24px" h="24px">
-                                <Image src={myA}/>
+                                <Image src={myA} alt="myA"/>
                             </Link>
                             <Text fontWeight="bold" fontSize="10px" align="center" >마이</Text>
                         </Flex>

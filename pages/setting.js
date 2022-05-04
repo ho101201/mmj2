@@ -13,7 +13,7 @@ import {
 
 
 
-  export default function setting() {
+  export default function Setting() {
 
     const f1 ="16px";
     const f2 ="14px";
@@ -24,7 +24,7 @@ import {
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">앱 설정</Text>
                 <Link href='/Profile' position="absolute" left="11px" w="20px" h="20px">
-                    <Image src={arrowL} />
+                    <Image src={arrowL} alt="arrowL"/>
                 </Link>
             </Flex>
             

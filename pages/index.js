@@ -45,7 +45,7 @@ export default function LogIn() {
                 <Link href='/Home'>
                   <Flex bg="#FFFFFF" alignItems="center" justifyContent="center" w="100%" borderRadius="10px" h="40px" >
                     <Box ml="43px" mt="6px">
-                      <Image src={kakao}/>
+                      <Image src={kakao} alt="kakao"/>
                     </Box>
                     <Spacer/>
                     <Text position="absolute" >
@@ -56,7 +56,7 @@ export default function LogIn() {
               </Box>
               <Flex bg="#FFFFFF" alignItems="center" justifyContent="center" w="100%" borderRadius="10px" h="40px">
                   <Box ml="44px" mt="6px">
-                    <Image src={naver}/>
+                    <Image src={naver} alt="naver"/>
                   </Box>
                   <Spacer/>
                 <Text  position="absolute">
@@ -65,7 +65,7 @@ export default function LogIn() {
               </Flex>
               <Flex bg="#FFFFFF" alignItems="center" justifyContent="center" w="100%" borderRadius="10px" h="40px">
                   <Box ml="43px" mt="6px">
-                    <Image src={facebook}/>
+                    <Image src={facebook} alt="facebook"/>
                   </Box>
                   <Spacer/>
                 <Text position="absolute">
@@ -74,7 +74,7 @@ export default function LogIn() {
               </Flex>
               <Flex bg="#FFFFFF" alignItems="center" justifyContent="center" w="100%" borderRadius="10px" h="40px">
                   <Box ml="49px" mt="6px">
-                    <Image src={apple}/>
+                    <Image src={apple} alt="apple"/>
                   </Box>
                   <Spacer/>
                 <Text position="absolute">
@@ -83,7 +83,7 @@ export default function LogIn() {
               </Flex>
               <Flex bg="#FFFFFF" alignItems="center" justifyContent="center" w="100%" borderRadius="10px" h="40px">
                   <Box ml="48px" mt="6px">
-                    <Image src={mail}/>
+                    <Image src={mail} alt="mail"/>
                   </Box>
                   <Spacer/>
                 <Text position="absolute">

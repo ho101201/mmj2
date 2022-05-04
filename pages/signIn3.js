@@ -26,7 +26,7 @@ import checkB from './images/checkB.png';
 import checkW from './images/checkW.png';
 
   
-export default function SignIn2() {
+export default function SignIn3() {
 
     const [heightIssue] = useMediaQuery(
         "(min-height: 305px)"
@@ -87,7 +87,7 @@ export default function SignIn2() {
                 <Flex w="vw" h="40px" alignItems="center" justifyContent="center" borderBottom="1px solid #DDDDDD">
                     <Flex ml="18px" alignItems="center">
                         <Link href='/SignIn2' mt="4px">
-                            <Image src={arrowL}/>
+                            <Image src={arrowL} alt="arrowL"/>
                         </Link>
                     </Flex>
                     <Spacer/>
@@ -119,19 +119,19 @@ export default function SignIn2() {
                     {Check1?
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking1()}>
                             <Box h="20px">
-                                <Image src={circleY} width="20px" height="20px" />
+                                <Image src={circleY} width="20px" height="20px" alt="circleY"/>
                             </Box>
                             <Box position="absolute" mb="3px">
-                                <Image src={checkB} width="10px" height="8px" />
+                                <Image src={checkB} width="10px" height="8px" alt="checkB"/>
                             </Box>
                         </Flex>
                     :
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking1()}>
                             <Box h="20px">
-                                <Image src={circleG} width="20px" height="20px" />
+                                <Image src={circleG} width="20px" height="20px" alt="circleG"/>
                             </Box>
                             <Box position="absolute" mb="3px">
-                                <Image src={checkW} width="10px" height="8px" />
+                                <Image src={checkW} width="10px" height="8px" alt="checkW"/>
                             </Box>
                         </Flex>
                     }
@@ -143,19 +143,19 @@ export default function SignIn2() {
                     {Check2?
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking2()}>
                             <Box h="20px">
-                                <Image src={circleY} width="20px" height="20px" />
+                                <Image src={circleY} width="20px" height="20px" alt="circleY"/>
                             </Box>
                             <Box position="absolute" mb="3px">
-                                <Image src={checkB} width="10px" height="8px" />
+                                <Image src={checkB} width="10px" height="8px" alt="checkB"/>
                             </Box>
                         </Flex>
                     :
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking2()}>
                             <Box h="20px">
-                                <Image src={circleG} width="20px" height="20px" />
+                                <Image src={circleG} width="20px" height="20px" alt="circleG"/>
                             </Box>
                             <Box position="absolute" mb="3px">
-                                <Image src={checkW} width="10px" height="8px" />
+                                <Image src={checkW} width="10px" height="8px" alt="checkW"/>
                             </Box>
                         </Flex>
                     }
@@ -169,19 +169,19 @@ export default function SignIn2() {
                     {Check3?
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking3()}>
                             <Box h="20px">
-                                <Image src={circleY} width="20px" height="20px" />
+                                <Image src={circleY} width="20px" height="20px" alt="circleY"/>
                             </Box>
                             <Box position="absolute" mb="3px">
-                                <Image src={checkB} width="10px" height="8px" />
+                                <Image src={checkB} width="10px" height="8px" alt="checkB"/>
                             </Box>
                         </Flex>
                     :
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking3()}>
                             <Box h="20px">
-                                <Image src={circleG} width="20px" height="20px" />
+                                <Image src={circleG} width="20px" height="20px" alt="circleG"/>
                             </Box>
                             <Box position="absolute" mb="3px">
-                                <Image src={checkW} width="10px" height="8px" />
+                                <Image src={checkW} width="10px" height="8px" alt="checkW"/>
                             </Box>
                         </Flex>
                     }
@@ -196,19 +196,19 @@ export default function SignIn2() {
                     {Check4?
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking4()}>
                             <Box h="20px">
-                                <Image src={circleY} width="20px" height="20px" />
+                                <Image src={circleY} width="20px" height="20px" alt="circleY"/>
                             </Box>
                             <Box position="absolute" mb="3px">
-                                <Image src={checkB} width="10px" height="8px" />
+                                <Image src={checkB} width="10px" height="8px" alt="checkB"/>
                             </Box>
                         </Flex>
                     :
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking4()}>
                             <Box h="20px">
-                                <Image src={circleG} width="20px" height="20px" />
+                                <Image src={circleG} width="20px" height="20px" alt="circleG"/>
                             </Box>
                             <Box position="absolute" mb="3px">
-                                <Image src={checkW} width="10px" height="8px" />
+                                <Image src={checkW} width="10px" height="8px" alt="checkW"/>
                             </Box>
                         </Flex>
                     }
@@ -219,19 +219,19 @@ export default function SignIn2() {
                     {Check5?
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking5()}>
                             <Box h="20px">
-                                <Image src={circleY} width="20px" height="20px" />
+                                <Image src={circleY} width="20px" height="20px" alt="circleY"/>
                             </Box>
                             <Box position="absolute" mb="3px">
-                                <Image src={checkB} width="10px" height="8px" />
+                                <Image src={checkB} width="10px" height="8px" alt="checkB"/>
                             </Box>
                         </Flex>
                     :
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking5()}>
                             <Box h="20px">
-                                <Image src={circleG} width="20px" height="20px" />
+                                <Image src={circleG} width="20px" height="20px" alt="circleG"/>
                             </Box>
                             <Box position="absolute" mb="3px">
-                                <Image src={checkW} width="10px" height="8px" />
+                                <Image src={checkW} width="10px" height="8px" alt="checkW"/>
                             </Box>
                         </Flex>
                     }
@@ -240,19 +240,19 @@ export default function SignIn2() {
                     {Check6?
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking6()}>
                             <Box h="20px">
-                                <Image src={circleY} width="20px" height="20px" />
+                                <Image src={circleY} width="20px" height="20px" alt="circleY"/>
                             </Box>
                             <Box position="absolute" mb="3px">
-                                <Image src={checkB} width="10px" height="8px" />
+                                <Image src={checkB} width="10px" height="8px" alt="checkB"/>
                             </Box>
                         </Flex>
                     :
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking6()}>
                             <Box h="20px">
-                                <Image src={circleG} width="20px" height="20px" />
+                                <Image src={circleG} width="20px" height="20px" alt="circleG"/>
                             </Box>
                             <Box position="absolute" mb="3px">
-                                <Image src={checkW} width="10px" height="8px" />
+                                <Image src={checkW} width="10px" height="8px" alt="checkW"/>
                             </Box>
                         </Flex>
                     }
@@ -282,7 +282,6 @@ export default function SignIn2() {
                         </Link>
                     </Box>
                 }
-
 
             </Flex>
 

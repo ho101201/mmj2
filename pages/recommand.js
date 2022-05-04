@@ -25,23 +25,24 @@ import my from './images/navIcons/icon_my.png';
 import myA from './images/navIcons/icon_myA.png';
 import dish from './images/dish.png';
 
-export default function recommand() {
+export default function Recommand() {
+    
+    const [longW] = useMediaQuery(
+        "(min-width: 600px)"
+      );
 
     const f1 ="16px";
     const f2 ="14px";
     const f3 ="12px";
     let nickname;
 
-    const [longW] = useMediaQuery(
-        "(min-width: 600px)"
-      );
 
     return(
         <div>
             <Flex direction="column" w="vw" h="vh" bg="#F6E229">
                 <Flex w="vw" h="vh" bg="#F6E229" alignItems="center" justifyContent="center" direction="column" mt="30px">
                     <Flex w="vw" h="vw" >
-                        <Image src={dish} />
+                        <Image src={dish} alt="dish"/>
                     </Flex>
                     <Flex position="absolute" direction="column"  justifyContent="center" >
                         <Flex justifyContent="center">
@@ -84,28 +85,28 @@ export default function recommand() {
                         <Spacer/>
                         <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
                             <Link href='/Home' w="24px" h="24px">
-                                <Image src={home}/>
+                                <Image src={home} alt="home"/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >홈</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
                             <Link href='/Recommand' w="24px" h="24px">
-                                <Image src={recA}/>
+                                <Image src={recA} alt="recA"/>
                             </Link>
                             <Text fontWeight="bold" fontSize="10px" align="center" >추천</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
                             <Link href='/Review' w="24px" h="24px">
-                                <Image src={rev}/>
+                                <Image src={rev} alt="rev"/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >후기</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
                             <Link href='/Profile' w="24px" h="24px">
-                                <Image src={my}/>
+                                <Image src={my} alt="my"/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >마이</Text>
                         </Flex>

@@ -12,7 +12,7 @@ import {
   import Search_Icons from './images/Search_Icons.png';
   import location from './images/location.png';
 
-  export default function setLoc() {
+  export default function SetLoc() {
 
     const f1 ="16px";
     const f2 ="14px";
@@ -23,7 +23,7 @@ import {
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">알림</Text>
                 <Link href='/Home' position="absolute" right="11px" w="20px" h="20px">
-                    <Image src={btnX} />
+                    <Image src={btnX} alt="btnX" />
                 </Link>
             </Flex>
 

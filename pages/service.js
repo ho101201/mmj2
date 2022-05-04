@@ -21,7 +21,7 @@ export default function Service() {
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">고객센터</Text>
                 <Link href='/Profile' position="absolute" left="11px" w="20px" h="20px">
-                    <Image src={arrowL} />
+                    <Image src={arrowL} alt="arrowL"/>
                 </Link>
             </Flex> 
             
@@ -30,7 +30,7 @@ export default function Service() {
                     <Text fontWeight="bold" fontSize={f2} color="#333333">공지사항</Text>
                     <Spacer/>
                     <Flex w="7px" h="10px">
-                        <Image src={arrowR}/>
+                        <Image src={arrowR} alt="arrowR"/>
                     </Flex>
                 </Flex>
             </Link>
@@ -40,7 +40,7 @@ export default function Service() {
                     <Text fontWeight="bold" fontSize={f2} color="#333333" >FAQ</Text>
                     <Spacer/>
                     <Flex w="7px" h="10px">
-                        <Image src={arrowR}/>
+                        <Image src={arrowR} alt="arrowR"/>
                     </Flex>
                 </Flex>
             </Link>
@@ -50,7 +50,7 @@ export default function Service() {
                     <Text fontWeight="bold" fontSize={f2} color="#333333">피드백 및 지원</Text>
                     <Spacer/>
                     <Flex w="7px" h="10px">
-                        <Image src={arrowR}/>
+                        <Image src={arrowR} alt="arrowR"/>
                     </Flex>
                 </Flex>
             </Link>
@@ -60,7 +60,7 @@ export default function Service() {
                     <Text fontWeight="bold" fontSize={f2} color="#333333" >서비스 이용약관</Text>
                     <Spacer/>
                     <Flex w="7px" h="10px">
-                        <Image src={arrowR}/>
+                        <Image src={arrowR} alt="arrowR"/>
                     </Flex>
                 </Flex>
             </Link>
@@ -70,7 +70,7 @@ export default function Service() {
                     <Text fontWeight="bold" fontSize={f2} color="#333333" >개인정보 처리방침</Text>
                     <Spacer/>
                     <Flex w="7px" h="10px">
-                        <Image src={arrowR}/>
+                        <Image src={arrowR} alt="arrowR"/>
                     </Flex>
                 </Flex>
             </Link>
@@ -80,7 +80,7 @@ export default function Service() {
                     <Text fontWeight="bold" fontSize={f2} color="#333333" >위치기반 서비스 이용약관</Text>
                     <Spacer/>
                     <Flex w="7px" h="10px">
-                        <Image src={arrowR}/>
+                        <Image src={arrowR} alt="arrowR"/>
                     </Flex>
                 </Flex>
             </Link>

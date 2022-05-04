@@ -15,7 +15,7 @@ import {
   import Search_Icons from './images/Search_Icons.png';
   import location from './images/location.png';
 
-  export default function search() {
+  export default function Search() {
 
     const f1 ="16px";
     const f2 ="14px";
@@ -25,16 +25,16 @@ import {
         <div>
             <Flex h="40px" p="5px" alignItems="center" borderBottom="1px solid #DDDDDD">
                 <Box w="20px" h="20px" mr="10px" ml="12px">
-                    <Image src={Search_Icons} />
+                    <Image src={Search_Icons} alt="search"/>
                 </Box>
                 <Input fontSize={f2} color="#A4A4A4" placeholder='동명(읍,면)으로 검색 (ex. 문정동)' bg="#F6F6F6" mr="5px" h="30px"/>
                 <Link href='/Home' w="20px" h="20px" ml="7px" mr="6px" > 
-                    <Image src={btnX} />
+                    <Image src={btnX} alt="btnX"/>
                 </Link>
             </Flex>
             <Flex justifyContent="center" mt="16px" alignItems="center" >
                 <Flex w="11px" h="13px" mr="6px">
-                    <Image src={location}/>
+                    <Image src={location} alt="location"/>
                 </Flex>
                 <Text fontSize={f2} >내 주변 식당 검색하기</Text>
             </Flex>
@@ -80,8 +80,6 @@ import {
                         <Text fontSize={f3} fontWeight="bold" mr="10px">5</Text>
                         <Tag textAlign="center" border="1px solid #A4A4A4" color="#A4A4A4" bg="white" fontSize="10px" borderRadius="4px" p="6px " >점심식사</Tag>
                     </Flex>
-
-
                 </Flex>
             </Box>
 

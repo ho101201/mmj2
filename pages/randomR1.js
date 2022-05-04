@@ -14,11 +14,11 @@ import {
 } from 'react';
 
 import arrowL from './images/arrowL.png';
-import Export from './images/export.png';
+import exportBtn from './images/exportBtn.png';
 import circleY from './images/ellipseY.png';
 import FNK from './images/F&K.png';
 
-export default function random1() {
+export default function Random1() {
 
     const f1 ="16px";
     const f2 ="14px";
@@ -30,7 +30,7 @@ export default function random1() {
                 <Flex ml="18px" alignItems="center">
                     <Link href='/Home' >
                         <Flex w="7px" h="16px">
-                            <Image src={arrowL}/>
+                            <Image src={arrowL} alt="arrowL"/>
                         </Flex>
                     </Link>
                 </Flex>
@@ -39,14 +39,14 @@ export default function random1() {
                 랜덤추천
                 </Text>
                 <Flex w="20px" h="20px" mr="9px">
-                    <Image src={Export}/>
+                    <Image src={exportBtn} alt="exportBtn"/>
                 </Flex>
             </Flex>
             <Flex w="vw" direction="column" alignItems='center' justifyContent="center" mt="20px">
                 <Flex w="40px" h="40px">
                     <Image src={circleY}/>
                     <Flex  w="18px" h="18px" mt="11px" ml="11px" position="absolute" >
-                        <Image src={FNK}/>
+                        <Image src={FNK} alt="FNK"/>
                     </Flex>
                 </Flex>
                 <Text fontSize={f1} fontWeight="bold" mt="15px">원하는 카테고리를 선택해주세요</Text>

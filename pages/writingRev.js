@@ -23,7 +23,7 @@ import {
   import del from './images/del.png';
 
 
-  export default function writingRev() {
+  export default function WritingRev() {
 
     const f1 ="16px";
     const f2 ="14px";
@@ -85,19 +85,19 @@ import {
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">후기 쓰기</Text>
                 <Link href='/CutletInfo' position="absolute" right="11px" w="20px" h="20px">
-                    <Image src={btnX} />
+                    <Image src={btnX} alt="btnX"/>
                 </Link>
             </Flex>
 
             <Flex direction='row' p="10px" alignItems="center" h="126px">
                 <Flex w="85px" h="85px" borderRadius="10px" overflow="hidden">
-                    <Image src={p1} />
+                    <Image src={p1} alt="p1"/>
                 </Flex>
                 <Flex direction="column" ml='10px'>
                     <Text fontWeight="bold" fontSize={f2}>카츠단길</Text>
                     <Flex direction="row" mb='10px'>
                         <Flex w="13px" h="13px">
-                            <Image src={starF}/>
+                            <Image src={starF} alt="starF"/>
                         </Flex>
                         <Text fontSize={f2} fontWeight="bold">4.5 (10)</Text>
                     </Flex>
@@ -111,37 +111,37 @@ import {
             <Flex direction="row" alignItems="center" justifyContent="center" mb="25px">
                 <Flex w="30px" h="30px" onClick={()=>checking1()} m="5px">
                     {Check1?
-                        <Image src={starF}/>
+                        <Image src={starF} alt="starf"/>
                     :
-                        <Image src={starB}/>
+                        <Image src={starB} alt="starB"/>
                     }
                 </Flex>
                 <Flex w="30px" h="30px" onClick={()=>checking2()} m="5px">
                     {Check2?
-                        <Image src={starF}/>
+                        <Image src={starF} alt="starF"/>
                     :
-                        <Image src={starB}/>
+                        <Image src={starB} alt="starB"/>
                     }
                 </Flex>
                 <Flex w="30px" h="30px" onClick={()=>checking3()} m="5px">
                     {Check3?
-                        <Image src={starF}/>
+                        <Image src={starF} alt="starF"/>
                     :
-                        <Image src={starB}/>
+                        <Image src={starB} alt="starB"/>
                     }
                 </Flex>
                 <Flex w="30px" h="30px" onClick={()=>checking4()} m="5px">
                     {Check4?
-                        <Image src={starF}/>
+                        <Image src={starF} alt="starF"/>
                     :
-                        <Image src={starB}/>
+                        <Image src={starB} alt="starB"/>
                     }
                 </Flex>
                 <Flex w="30px" h="30px" onClick={()=>checking5()} >
                     {Check5?
-                        <Image src={starF}/>
+                        <Image src={starF} alt="starF"/>
                     :
-                        <Image src={starB}/>
+                        <Image src={starB} alt="starB"/>
                     }
                 </Flex>
 

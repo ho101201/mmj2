@@ -10,7 +10,7 @@ import {
   import {React, useState} from 'react';
 
   import arrowL from './images/arrow-left.png';
-  import foodExample from './images/photo/foodExample.png';
+  import photoEx0 from './images/photo/photoEx0.png';
   import p1 from './images/photo/photoEx1.png';
   import del from './images/del.png';
   import starB from './images/starB.png';
@@ -19,7 +19,7 @@ import {
   import heart from './images/heart.png';
   import comment from './images/comment.png';
 
-  export default function memo() {
+  export default function Like() {
 
     const f1 ="16px";
     const f2 ="14px";
@@ -36,7 +36,7 @@ import {
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">좋아요</Text>
                 <Link href='/Profile' position="absolute" left="11px" w="20px" h="20px">
-                    <Image src={arrowL} />
+                    <Image src={arrowL} alt="arrowL"/>
                 </Link>
             </Flex> 
 
@@ -67,13 +67,13 @@ import {
             {Page&&
                 <Flex direction='row' p="10px" alignItems="center" h="126px" mt="10px">
                     <Flex w="85px" h="85px" borderRadius="10px" overflow="hidden">
-                        <Image src={p1} />
+                        <Image src={p1} alt="p1"/>
                     </Flex>
                     <Flex direction="column" ml='10px'>
                         <Text fontWeight="bold" fontSize={f2}>카츠단길</Text>
                         <Flex direction="row" mb='10px' alignItems="center">
                             <Flex w="13px" h="13px">
-                                <Image src={starF}/>
+                                <Image src={starF} alt="starF"/>
                             </Flex>
                             <Text fontSize={f2} ml="5px">4.5 (10)</Text>
                         </Flex>
@@ -81,7 +81,7 @@ import {
                     </Flex>
                     <Spacer/>
                     <Flex w="30px" h="30px">
-                        <Image src={del}/>
+                        <Image src={del} alt="del"/>
                     </Flex>
                 </Flex>
             }
@@ -90,19 +90,19 @@ import {
             <Grid templateColumns="repeat(3,1fr)" borderTop="1px solid #E8E8E8" borderBottom="1px solid #E8E8E8" h="62px" mt="20px">
                 <GridItem display="flex" flexDirection="row" alignItems="center" justifyContent='center'>
                     <Flex w="12px" h="12px" mr="7px">
-                        <Image src={starB}/>
+                        <Image src={starB} alt="starB"/>
                     </Flex>
                     <Text fontSize={f2} color="#565656">가볼래요<text>(99)</text></Text>
                 </GridItem>
                 <GridItem display="flex" flexDirection="row" alignItems="center" justifyContent='center'>
                     <Flex w="12px" h="12px" mr="7px">
-                        <Image src={heart}/>
+                        <Image src={heart} alt="heart"/>
                     </Flex>
                     <Text fontSize={f2} color="#565656">좋아요<text>(99)</text></Text>
                 </GridItem>
                 <GridItem display="flex" flexDirection="row" alignItems="center" justifyContent='center'>
                     <Flex w="12px" h="12px" mr="7px">
-                        <Image src={comment}/>
+                        <Image src={comment} alt="comment"/>
                     </Flex>
                     <Text fontSize={f2} color="#565656">댓글<text>(99)</text></Text>
                 </GridItem>
@@ -114,7 +114,7 @@ import {
                     <Text fontSize={f1} fontWeight="bold" mt="18px" mb="16px" >카츠단길 문정역</Text>
                     <Flex direction="row">
                         <Flex w="50px" h="50px" >
-                            <Image src={user}/>
+                            <Image src={user} alt="user"/>
                         </Flex>
                         <Flex ml="12px" direction="column" justifyContent="center">
                             <Text fontSize={f2} >유저닉네임</Text>
@@ -123,13 +123,13 @@ import {
                         <Spacer/>
                         <Flex direction="row" alignItems="center">
                             <Flex w="13px" h="13px" mr="5px">
-                                <Image src={starF}/>
+                                <Image src={starF} alt="starF"/>
                             </Flex>
                             <Text fontWeight="bold" fontSize={f2}>4.5</Text>
                         </Flex>
                     </Flex>
                     <Flex mt="12px">
-                        <Image src={foodExample}/>
+                        <Image src={photoEx0} alt="p0"/>
                     </Flex>
     
                     <Text id='userReview1' mt="12px" >
@@ -150,19 +150,19 @@ import {
                     <Grid templateColumns="repeat(3,1fr)" borderTop="1px solid #E8E8E8" h="62px" mt="30px">
                         <GridItem display="flex" flexDirection="row" alignItems="center" justifyContent='center'>
                             <Flex w="12px" h="12px" mr="7px">
-                                <Image src={starB}/>
+                                <Image src={starB} alt="starB"/>
                             </Flex>
                             <Text fontSize={f2} color="#565656">가볼래요</Text>
                         </GridItem>
                         <GridItem display="flex" flexDirection="row" alignItems="center" justifyContent='center'>
                             <Flex w="12px" h="12px" mr="7px">
-                                <Image src={heart}/>
+                                <Image src={heart} alt="heart"/>
                             </Flex>
                             <Text fontSize={f2} color="#565656">좋아요</Text>
                         </GridItem>
                         <GridItem display="flex" flexDirection="row" alignItems="center" justifyContent='center'>
                             <Flex w="12px" h="12px" mr="7px">
-                                <Image src={comment}/>
+                                <Image src={comment} alt="comment"/>
                             </Flex>
                             <Text fontSize={f2} color="#565656">댓글</Text>
                         </GridItem>

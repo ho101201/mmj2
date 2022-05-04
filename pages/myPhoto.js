@@ -64,7 +64,7 @@ function RadioCard(props) {
     )
   }
 
-export default function rPhoto() {
+export default function RPhoto() {
 
     const f1 ="16px";
     const f2 ="14px";
@@ -86,7 +86,7 @@ export default function rPhoto() {
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">사진</Text>
                 <Link href='/Profile' position="absolute" left="11px" w="20px" h="20px">
-                    <Image src={arrowL} />
+                    <Image src={arrowL} alt="arrowF"/>
                 </Link>
             </Flex> 
 
@@ -105,40 +105,40 @@ export default function rPhoto() {
                 
                 <Grid templateColumns="repeat(3, 1fr)" templateRows="repeat(2, 1fr)" mt='13px' mb="46px" gap={1} >
                     <GridItem>
-                        <Image src={p9}/>
+                        <Image src={p9} alt="p9"/>
                     </GridItem>
                     <GridItem>
-                        <Image src={p4}/>
+                        <Image src={p4} alt="p4"/>
                     </GridItem>
                     <GridItem>
-                        <Image src={p8}/>
+                        <Image src={p8} alt="p8"/>
                     </GridItem>
                     <GridItem mt='-5px'>
-                        <Image src={p7}/>
+                        <Image src={p7} alt="p7"/>
                     </GridItem>
                     <GridItem mt='-5px'>
-                        <Image src={p3}/>
+                        <Image src={p3} alt="p3"/>
                     </GridItem>
                     <GridItem mt='-5px'>
-                        <Image src={p5}/>
+                        <Image src={p5} alt="p5"/>
                     </GridItem>
                     <GridItem mt='-10px'>
-                        <Image src={p6}/>
+                        <Image src={p6} alt="p6"/>
                     </GridItem>
                     <GridItem mt='-10px'>
-                        <Image src={p2}/>
+                        <Image src={p2} alt="p2"/>
                     </GridItem>
                     <GridItem mt='-10px'>
-                        <Image src={p1}/>
+                        <Image src={p1} alt="p1"/>
                     </GridItem>
                     <GridItem mt='-15px'>
-                        <Image src={p9}/>
+                        <Image src={p9} alt="p9"/>
                     </GridItem>
                     <GridItem mt='-15px'>
-                        <Image src={p4}/>
+                        <Image src={p4} alt="p4"/>
                     </GridItem>
                     <GridItem mt='-15px'>
-                        <Image src={p8}/>
+                        <Image src={p8} alt="p8"/>
                     </GridItem>
                 </Grid>
 

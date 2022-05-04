@@ -15,7 +15,7 @@ import {
   import arrowR from './images/arrowR.png';
   import p1 from './images/photo/photoEx1.png';
 
-  export default function willGo() {
+  export default function WillGo() {
 
     const f1 ="16px";
     const f2 ="14px";
@@ -26,19 +26,19 @@ import {
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">가볼래요</Text>
                 <Link href='/Profile' position="absolute" right="11px" w="20px" h="20px">
-                    <Image src={btnX} />
+                    <Image src={btnX} alt="btnX"/>
                 </Link>
             </Flex>
 
             <Flex direction='row' p="10px" alignItems="center" h="126px">
                 <Flex w="85px" h="85px" borderRadius="10px" overflow="hidden">
-                    <Image src={p1} />
+                    <Image src={p1} alt="p1"/>
                 </Flex>
                 <Flex direction="column" ml='10px'>
                     <Text fontWeight="bold" fontSize={f2}>카츠단길</Text>
                     <Flex direction="row" mb='10px'>
                         <Flex w="13px" h="13px">
-                            <Image src={starF}/>
+                            <Image src={starF} alt="starF"/>
                         </Flex>
                         <Text fontSize={f2}>4.5 (10)</Text>
                     </Flex>
@@ -46,7 +46,7 @@ import {
                 </Flex>
                 <Spacer/>
                 <Flex w="30px" h="30px">
-                    <Image src={starF}/>
+                    <Image src={starF} alt="starF"/>
                 </Flex>
             </Flex>
             <Link href='/Memo'>
@@ -54,20 +54,20 @@ import {
                     <Text fontSize={f2} color="#333333">가고싶은 이유가 있나요?</Text>
                     <Spacer/>
                     <Flex w="7px" h="10px">
-                        <Image src={arrowR}/>
+                        <Image src={arrowR} alt="arrowR"/>
                     </Flex>
                 </Flex>
             </Link>
 
             <Flex direction='row' p="10px" alignItems="center" h="126px" mt="10px">
                 <Flex w="85px" h="85px" borderRadius="10px" overflow="hidden">
-                    <Image src={p1} />
+                    <Image src={p1} alt="p1"/>
                 </Flex>
                 <Flex direction="column" ml='10px'>
                     <Text fontWeight="bold" fontSize={f2}>카츠단길</Text>
                     <Flex direction="row" mb='10px'>
                         <Flex w="13px" h="13px">
-                            <Image src={starF}/>
+                            <Image src={starF} alt="starF"/>
                         </Flex>
                         <Text fontSize={f2}>4.5 (10)</Text>
                     </Flex>
@@ -75,7 +75,7 @@ import {
                 </Flex>
                 <Spacer/>
                 <Flex w="30px" h="30px">
-                    <Image src={starF}/>
+                    <Image src={starF} alt="starF"/>
                 </Flex>
             </Flex>
 
@@ -84,7 +84,7 @@ import {
                     <Text fontSize={f2} color="#333333">가고싶은 이유가 있나요?</Text>
                     <Spacer/>
                     <Flex w="7px" h="10px">
-                        <Image src={arrowR}/>
+                        <Image src={arrowR} alt="arrowR"/>
                     </Flex>
                 </Flex>
             </Link>

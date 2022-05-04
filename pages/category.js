@@ -71,7 +71,7 @@ import {
   }
 
 
-  export default function category () {
+  export default function Category () {
   
     const f1 ="16px";
     const f2 ="14px";
@@ -121,25 +121,25 @@ import {
                     <Link href='/SetLocation' display="flex" flexDirection="row">
                         <Text id='location' fontSize={f2} fontWeight="bold" ml="10px" mr="7px" >송파구 문정동</Text>
                         <Box w="12px" h="20px" position="absolute" left="104px" top="4px" >
-                            <Image src={arrowB} />
+                            <Image src={arrowB} alt="arrowB"/>
                         </Box>
                     </Link>
                     <Spacer/>
                     <Link href='/Search'>
                         <Box w="20px" h="20px" mr="22px">
-                            <Image src={search} />
+                            <Image src={search} alt="search"/>
                         </Box>
                     </Link>
                     <Link href='/Alarm'>
                         <Box w="20px" h="20px" mr="22px">
-                            <Image src={bell} />
+                            <Image src={bell} alt="bell"/>
                         </Box>
                     </Link>
                 </Flex>
 
                 {/* hide or fade out */}
                     <Box position="absolute" w="214px" h="28px" top="29px" left="11px">
-                        <Image src={info} />
+                        <Image src={info} alt="info"/>
                     </Box>
 
                 <HStack {...group} mt="19px" mb="15px" ml="10px" overflowX="hidden">
@@ -157,7 +157,7 @@ import {
                     <WrapItem>
                         <Flex direction="column">
                             <Flex w="165px" h="165px" borderRadius="10px" overflow="hidden">
-                                <Image src={p1}/>
+                                <Image src={p1} alt="p1"/>
                             </Flex>
                             <Flex bg="#F6E229" border="1px solid #FFF061" w="46px" h="20px" borderRadius="4px" m="10px" justifyContent="center" alignItems="center" position="absolute" >
                                 <Text fontSize="10px" align="center" fontWeight="bold" letterSpacing="-0.5px">
@@ -175,7 +175,7 @@ import {
                             </Flex>
                             <Flex mt="10px">
                                 <Flex w="12px" h="12px" mr="5px">
-                                    <Image src={starF}/>
+                                    <Image src={starF} alt="starF"/>
                                 </Flex>
                                 <Text fontSize="10px" color="#565656">4.5 (10)</Text>
                             </Flex>
@@ -185,7 +185,7 @@ import {
                     <WrapItem>
                         <Flex direction="column">
                             <Flex w="165px" h="165px" borderRadius="10px" overflow="hidden">
-                                <Image src={p1}/>
+                                <Image src={p1} alt="starF"/>
                             </Flex>
                             <Flex bg="#333333" border="1px solid #FFF061" w="55px" h="20px" borderRadius="4px" m="10px" justifyContent="center" alignItems="center" position="absolute" >
                                 <Text color="#F6E229" fontSize="10px" align="center" fontWeight="bold" letterSpacing="-0.5px">
@@ -203,7 +203,7 @@ import {
                             </Flex>
                             <Flex mt="10px">
                                 <Flex w="12px" h="12px" mr="5px">
-                                    <Image src={starF}/>
+                                    <Image src={starF} alt="starF"/>
                                 </Flex>
                                 <Text fontSize="10px" color="#565656">4.5 (10)</Text>
                             </Flex>
@@ -213,7 +213,7 @@ import {
                     <WrapItem>
                         <Flex direction="column">
                             <Flex w="165px" h="165px" borderRadius="10px" overflow="hidden">
-                                <Image src={p1}/>
+                                <Image src={p1} alt="p1"/>
                             </Flex>
                             <Flex bg="#333333" border="1px solid #FFF061" w="40px" h="20px" borderRadius="4px" m="10px" justifyContent="center" alignItems="center" position="absolute" >
                                 <Text color="#F6E229" fontSize="10px" align="center" fontWeight="bold" letterSpacing="-0.5px">
@@ -231,7 +231,7 @@ import {
                             </Flex>
                             <Flex mt="10px">
                                 <Flex w="12px" h="12px" mr="5px">
-                                    <Image src={starF}/>
+                                    <Image src={starF} alt="starF"/>
                                 </Flex>
                                 <Text fontSize="10px" color="#565656">4.5 (10)</Text>
                             </Flex>
@@ -241,7 +241,7 @@ import {
                     <WrapItem>
                         <Flex direction="column">
                             <Flex w="165px" h="165px" borderRadius="10px" overflow="hidden">
-                                <Image src={p1}/>
+                                <Image src={p1} alt="p1"/>
                             </Flex>
                             <Flex direction="row" alignItems="center" mt="5px">
                                 <Text fontWeight="bold" fontSize={f1}>카츠단식</Text>
@@ -254,7 +254,7 @@ import {
                             </Flex>
                             <Flex mt="10px">
                                 <Flex w="12px" h="12px" mr="5px">
-                                    <Image src={starF}/>
+                                    <Image src={starF} alt="starF"/>
                                 </Flex>
                                 <Text fontSize="10px" color="#565656">4.5 (10)</Text>
                             </Flex>
@@ -264,7 +264,7 @@ import {
                     <WrapItem>
                         <Flex direction="column">
                             <Flex w="165px" h="165px" borderRadius="10px" overflow="hidden">
-                                <Image src={p1}/>
+                                <Image src={p1} alt="p1"/>
                             </Flex>
                             <Flex direction="row" alignItems="center" mt="5px">
                                 <Text fontWeight="bold" fontSize={f1}>카츠단식</Text>
@@ -277,7 +277,7 @@ import {
                             </Flex>
                             <Flex mt="10px">
                                 <Flex w="12px" h="12px" mr="5px">
-                                    <Image src={starF}/>
+                                    <Image src={starF} alt="starF"/>
                                 </Flex>
                                 <Text fontSize="10px" color="#565656">4.5 (10)</Text>
                             </Flex>
@@ -287,7 +287,7 @@ import {
                     <WrapItem>
                         <Flex direction="column">
                             <Flex w="165px" h="165px" borderRadius="10px" overflow="hidden">
-                                <Image src={p1}/>
+                                <Image src={p1} alt="p1"/>
                             </Flex>
                             <Flex direction="row" alignItems="center" mt="5px">
                                 <Text fontWeight="bold" fontSize={f1}>카츠단식</Text>
@@ -300,7 +300,7 @@ import {
                             </Flex>
                             <Flex mt="10px">
                                 <Flex w="12px" h="12px" mr="5px">
-                                    <Image src={starF}/>
+                                    <Image src={starF} alt="starF"/>
                                 </Flex>
                                 <Text fontSize="10px" color="#565656">4.5 (10)</Text>
                             </Flex>
@@ -315,28 +315,28 @@ import {
                         <Spacer/>
                         <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
                             <Link href='/Home' w="24px" h="24px">
-                                <Image src={home}/>
+                                <Image src={home} alt="home"/>
                             </Link>
                             <Text fontWeight="medium " fontSize="10px" align="center" >홈</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
                             <Link href='/Recommand' w="24px" h="24px">
-                                <Image src={rec}/>
+                                <Image src={rec} alt="rec"/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >추천</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
                             <Link href='/Review' w="24px" h="24px">
-                                <Image src={rev}/>
+                                <Image src={rev} alt="rev"/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >후기</Text>
                         </Flex>
                         <Spacer/>
                         <Flex direction="column" justifyContent="center" ml="33px" mr="33px">
                             <Link href='/Profile' w="24px" h="24px">
-                                <Image src={my}/>
+                                <Image src={my} alt="my"/>
                             </Link>
                             <Text fontWeight="medium" fontSize="10px" align="center" >마이</Text>
                         </Flex>

@@ -35,7 +35,7 @@ export default function SignIn2() {
                 <Flex w="vw" h="40px" alignItems="center" justifyContent="center" borderBottom="1px solid #DDDDDD">
                     <Flex ml="18px" alignItems="center">
                         <Link href='/SignIn' mt="4px">
-                            <Image src={arrowL}/>
+                            <Image src={arrowL} alt="arrowL"/>
                         </Link>
                     </Flex>
                     <Spacer/>
@@ -63,10 +63,10 @@ export default function SignIn2() {
                     {/* pictogram */}
                     <Flex alignItems='center' justifyContent="center"  mt="37px">
                         <Box h="40px">
-                            <Image src={circleY} width="40px" height="40px" />
+                            <Image src={circleY} width="40px" height="40px" alt="circleY"/>
                         </Box>
                         <Box position="absolute">
-                            <Image src={file} width="14px" height="11px" />
+                            <Image src={file} width="14px" height="11px" alt="file"/>
                         </Box>
                     </Flex>
                     <Text fontSize={f3} fontWeight="bold" mt="5px">저장소</Text>
@@ -75,10 +75,10 @@ export default function SignIn2() {
                     
                     <Flex alignItems='center' justifyContent="center" mt="18px">
                         <Box h="40px">
-                            <Image src={circleY} width="40px" height="40px" />
+                            <Image src={circleY} width="40px" height="40px" alt="circleY"/>
                         </Box>
                         <Box position="absolute">
-                            <Image src={camera} width="14px" height="11px" />
+                            <Image src={camera} width="14px" height="11px" alt="camera"/>
                         </Box>
                     </Flex>
                     <Text fontSize={f3} fontWeight="bold" mt="5px">카메라</Text>

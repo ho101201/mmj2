@@ -17,34 +17,35 @@ import checkW from './images/checkW.png';
 
 export default function withdrawal() {
 
-    const f1 ="16px";
-    const f2 ="14px";
-    const f3 ="12px";
-
+    
     const [Check1, setCheck1] = useState(false);
-
+    
     const checking1 =()=> {
         setCheck1( Check1 => !Check1);
     }
-
+    
     const [Check2, setCheck2] = useState(false);
     
     const checking2 =()=> {
         setCheck2( Check2 => !Check2 );
     }
-
+    
+    const f1 ="16px";
+    const f2 ="14px";
+    const f3 ="12px";
+    
     return(
         <div>
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">회원탈퇴</Text>
                 <Link href='/Profile' position="absolute" left="11px" w="20px" h="20px">
-                    <Image src={arrowL} />
+                    <Image src={arrowL} alt="arrowL"/>
                 </Link>
             </Flex> 
 
             <Flex w="vw" h="120px" direction="column" alignItems="center" justifyContent="center" mb="10px">
                 <Flex w="50px" h="50px">
-                    <Image src={user}/>
+                    <Image src={user} alt="user"/>
                 </Flex>
                 <Text fontSize={f2} fontWeight="bold" mt="4px" mb="4px" letterSpacing="-1px" >유저닉네임</Text>
             </Flex>
@@ -88,19 +89,19 @@ export default function withdrawal() {
                 {Check1?
                     <Flex alignItems='center' justifyContent="center" mr="10px" mt="4px" onClick={()=>checking1()}>
                         <Flex width="20px" height="20px">
-                            <Image src={circleY}  />
+                            <Image src={circleY} alt="circleY"/>
                         </Flex>
                         <Flex position="absolute" width="10px" height="8px">
-                            <Image src={checkB}/>
+                            <Image src={checkB} alt="checkB"/>
                         </Flex>
                     </Flex>
                 :
                     <Flex alignItems='center' justifyContent="center" mr="10px" mt="4px" onClick={()=>checking1()}>
                         <Flex width="20px" height="20px">
-                            <Image src={circleG}  />
+                            <Image src={circleG} alt="circleG"/>
                         </Flex>
                         <Flex position="absolute" width="10px" height="8px">
-                            <Image src={checkW}/>
+                            <Image src={checkW} alt="checkW"/>
                         </Flex>
                     </Flex>
                 }
@@ -116,19 +117,19 @@ export default function withdrawal() {
                 {Check2?
                     <Flex alignItems='center' justifyContent="center" mr="10px" mt="4px" onClick={()=>checking2()}>
                         <Flex width="20px" height="20px">
-                            <Image src={circleY}  />
+                            <Image src={circleY} alt="circleY"/>
                         </Flex>
                         <Flex position="absolute" width="10px" height="8px">
-                            <Image src={checkB}/>
+                            <Image src={checkB} alt="checkB"/>
                         </Flex>
                     </Flex>
                 :
                     <Flex alignItems='center' justifyContent="center" mr="10px" mt="4px" onClick={()=>checking2()}>
                         <Flex width="20px" height="20px">
-                            <Image src={circleG}  />
+                            <Image src={circleG} alt="circleG"/>
                         </Flex>
                         <Flex position="absolute" width="10px" height="8px">
-                            <Image src={checkW}/>
+                            <Image src={checkW} alt="checkW"/>
                         </Flex>
                     </Flex>
                 }

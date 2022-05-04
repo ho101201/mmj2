@@ -22,7 +22,7 @@ import {
   import del from './images/del.png';
 
 
-  export default function rev1() {
+  export default function Rev1() {
 
     const f1 ="16px";
     const f2 ="14px";
@@ -33,19 +33,19 @@ import {
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">가봤어요</Text>
                 <Link href='/CutletInfo' position="absolute" right="11px" w="20px" h="20px">
-                    <Image src={btnX} />
+                    <Image src={btnX} alt="btnX"/>
                 </Link>
             </Flex>
 
             <Flex direction='row' p="10px" alignItems="center" h="126px">
                 <Flex w="85px" h="85px" borderRadius="10px" overflow="hidden">
-                    <Image src={p1} />
+                    <Image src={p1} alt="p1"/>
                 </Flex>
                 <Flex direction="column" ml='10px'>
                     <Text fontWeight="bold" fontSize={f2}>카츠단길</Text>
                     <Flex direction="row" mb='10px'>
                         <Flex w="13px" h="13px">
-                            <Image src={starF}/>
+                            <Image src={starF} alt="starF"/>
                         </Flex>
                         <Text fontSize={f2} fontWeight="bold">4.5 (10)</Text>
                     </Flex>
@@ -59,7 +59,7 @@ import {
                     <Text fontSize={f3} color="#333333" >방문 후기를 짧게 메모해보세요</Text>
                     <Spacer/>
                     <Flex w="7px" h="10px">
-                        <Image src={arrowR}/>
+                        <Image src={arrowR} alt="arrowR"/>
                     </Flex>
                 </Flex>
             </Link>

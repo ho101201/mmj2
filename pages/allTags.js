@@ -11,7 +11,7 @@ import Image from "next/image";
 import btnX from './images/btnX.png';
 
 
-export default function tags() {
+export default function Tags() {
 
     const f1 ="16px";
     const f2 ="14px";
@@ -22,7 +22,7 @@ export default function tags() {
            <Flex w="vw" h="42px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">전체 태그</Text>
                 <Link href='/Review' position="absolute" right="11px" w="20px" h="20px">
-                    <Image src={btnX} />
+                    <Image src={btnX} alt="btnX"/>
                 </Link>
             </Flex> 
             <Flex mr="10xp" ml="10xp" mt="30px" justifyContent="center" alignItems="center">

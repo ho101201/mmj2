@@ -45,7 +45,7 @@ export default function SignIn() {
             <Flex w="vw" h="40px" alignItems="center" justifyContent="center" borderBottom="1px solid #DDDDDD">
                 <Flex ml="18px" alignItems="center">
                     <Link href='/' mt="4px">
-                        <Image src={arrowL}/>
+                        <Image src={arrowL} alt="arrowL"/>
                     </Link>
                 </Flex>
                 <Spacer/>
@@ -63,7 +63,7 @@ export default function SignIn() {
                 <Flex w="100%" alignItems="center" direction="row-reverse">
                     <Input placeholder='한글,영문/숫자로 4~16자 이내' border="1px solid #E1E1E1" borderRadius="10px" w="100%" fontSize={f3}/>
                     <Flex position="absolute" mr="11px">
-                        <Image src={check} />
+                        <Image src={check} alt="check"/>
                     </Flex>
                     {/* <Icon as={CheckIcon} w="20px"  position="absolute" mr="17px" /> */}
                 </Flex>

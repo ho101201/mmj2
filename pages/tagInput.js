@@ -26,7 +26,7 @@ import {
   import del from './images/del.png';
 
 
-  export default function tagInput() {
+  export default function TagInput() {
 
     const f1 ="16px";
     const f2 ="14px";
@@ -38,7 +38,7 @@ import {
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">태그 입력</Text>
                 <Link href='/WritingRev' position="absolute" right="11px" w="20px" h="20px">
-                    <Image src={btnX} />
+                    <Image src={btnX} alt="btnX"/>
                 </Link>
             </Flex>
 

@@ -17,7 +17,7 @@ import circleG from './images/EllipseG.png';
 import checkB from './images/checkB.png';
 import checkW from './images/checkW.png';
 
-  export default function fix() {
+  export default function Fix() {
 
     const f1 ="16px";
     const f2 ="14px";
@@ -70,7 +70,7 @@ import checkW from './images/checkW.png';
             <Flex w="vw" h="40px" justifyContent="center" alignItems="center" border="1px solid #DDDDDD">
                 <Text fontSize={f1} fontWeight="bold" align="center">정보수정</Text>
                 <Link href='/Profile' position="absolute" left="11px" w="20px" h="20px">
-                    <Image src={arrowL} />
+                    <Image src={arrowL} alt="arrowL"/>
                 </Link>
             </Flex>
 
@@ -85,19 +85,19 @@ import checkW from './images/checkW.png';
                     {Check1?
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking1()}>
                             <Flex width="20px" height="20px">
-                                <Image src={circleY}  />
+                                <Image src={circleY}  alt="circleY"/>
                             </Flex>
                             <Flex position="absolute" width="10px" height="8px">
-                                <Image src={checkB}/>
+                                <Image src={checkB} alt="checkB"/>
                             </Flex>
                         </Flex>
                     :
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking1()}>
                             <Flex width="20px" height="20px">
-                                <Image src={circleG}  />
+                                <Image src={circleG} alt="circleG"/>
                             </Flex>
                             <Flex position="absolute" width="10px" height="8px">
-                                <Image src={checkW}/>
+                                <Image src={checkW} alt="checkW"/>
                             </Flex>
                         </Flex>
                     }
@@ -109,19 +109,19 @@ import checkW from './images/checkW.png';
                     {Check2?
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking2()}>
                             <Flex width="20px" height="20px">
-                                <Image src={circleY}  />
+                                <Image src={circleY} alt="circleY"/>
                             </Flex>
                             <Flex position="absolute" width="10px" height="8px">
-                                <Image src={checkB}/>
+                                <Image src={checkB} alt="checkB"/>
                             </Flex>
                         </Flex>
                     :
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking2()}>
                             <Flex width="20px" height="20px">
-                                <Image src={circleG}  />
+                                <Image src={circleG} alt="circleG"/>
                             </Flex>
                             <Flex position="absolute" width="10px" height="8px">
-                                <Image src={checkW}/>
+                                <Image src={checkW} alt="checkW"/>
                             </Flex>
                         </Flex>
                     }
@@ -133,19 +133,19 @@ import checkW from './images/checkW.png';
                     {Check3?
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking3()}>
                             <Flex width="20px" height="20px">
-                                <Image src={circleY}  />
+                                <Image src={circleY} alt="circleY"/>
                             </Flex>
                             <Flex position="absolute" width="10px" height="8px">
-                                <Image src={checkB}/>
+                                <Image src={checkB} alt="checkB"/>
                             </Flex>
                         </Flex>
                     :
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking3()}>
                             <Flex width="20px" height="20px">
-                                <Image src={circleG}  />
+                                <Image src={circleG} alt="circleG"/>
                             </Flex>
                             <Flex position="absolute" width="10px" height="8px">
-                                <Image src={checkW}/>
+                                <Image src={checkW} alt="checkW"/>
                             </Flex>
                         </Flex>
                     }
@@ -157,19 +157,19 @@ import checkW from './images/checkW.png';
                     {Check4?
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking4()}>
                             <Flex width="20px" height="20px">
-                                <Image src={circleY}  />
+                                <Image src={circleY} alt="circleY"/>
                             </Flex>
                             <Flex position="absolute" width="10px" height="8px">
-                                <Image src={checkB}/>
+                                <Image src={checkB} alt="checkB"/>
                             </Flex>
                         </Flex>
                     :
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking4()}>
                             <Flex width="20px" height="20px">
-                                <Image src={circleG}  />
+                                <Image src={circleG} alt="circleG"/>
                             </Flex>
                             <Flex position="absolute" width="10px" height="8px">
-                                <Image src={checkW}/>
+                                <Image src={checkW} alt="checkW"/>
                             </Flex>
                         </Flex>
                     }
@@ -181,19 +181,19 @@ import checkW from './images/checkW.png';
                     {Check5?
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking5()}>
                             <Flex width="20px" height="20px">
-                                <Image src={circleY}  />
+                                <Image src={circleY} alt="circleY"/>
                             </Flex>
                             <Flex position="absolute" width="10px" height="8px">
-                                <Image src={checkB}/>
+                                <Image src={checkB} alt="checkB"/>
                             </Flex>
                         </Flex>
                     :
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking5()}>
                             <Flex width="20px" height="20px">
-                                <Image src={circleG}  />
+                                <Image src={circleG} alt="circleG"/>
                             </Flex>
                             <Flex position="absolute" width="10px" height="8px">
-                                <Image src={checkW}/>
+                                <Image src={checkW} alt="checkW"/>
                             </Flex>
                         </Flex>
                     }
@@ -205,19 +205,19 @@ import checkW from './images/checkW.png';
                     {Check6?
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking6()}>
                             <Flex width="20px" height="20px">
-                                <Image src={circleY}  />
+                                <Image src={circleY} alt="circleY"/>
                             </Flex>
                             <Flex position="absolute" width="10px" height="8px">
-                                <Image src={checkB}/>
+                                <Image src={checkB} alt="checkB"/>
                             </Flex>
                         </Flex>
                     :
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking6()}>
                             <Flex width="20px" height="20px">
-                                <Image src={circleG}  />
+                                <Image src={circleG} alt="circleG"/>
                             </Flex>
                             <Flex position="absolute" width="10px" height="8px">
-                                <Image src={checkW}/>
+                                <Image src={checkW} alt="checkW"/>
                             </Flex>
                         </Flex>
                     }
@@ -229,19 +229,19 @@ import checkW from './images/checkW.png';
                     {Check7?
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking7()}>
                             <Flex width="20px" height="20px">
-                                <Image src={circleY}  />
+                                <Image src={circleY} alt="circleY"/>
                             </Flex>
                             <Flex position="absolute" width="10px" height="8px">
-                                <Image src={checkB}/>
+                                <Image src={checkB} alt="checkB"/>
                             </Flex>
                         </Flex>
                     :
                         <Flex alignItems='center' justifyContent="center" onClick={()=>checking7()}>
                             <Flex width="20px" height="20px">
-                                <Image src={circleG}  />
+                                <Image src={circleG} alt="circleG"/>
                             </Flex>
                             <Flex position="absolute" width="10px" height="8px">
-                                <Image src={checkW}/>
+                                <Image src={checkW} alt="checkW"/>
                             </Flex>
                         </Flex>
                     }

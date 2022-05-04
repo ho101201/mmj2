@@ -19,10 +19,10 @@ import {
 
 import Q from './images/Q.png';
 import arrowL from './images/arrowL.png';
-import Export from './images/export.png';
+import exportBtn from './images/exportBtn.png';
 
 
-export default function situation() {
+export default function Situation() {
 
     const f1 ="16px";
     const f2 ="14px";
@@ -39,7 +39,7 @@ export default function situation() {
                 <Flex ml="18px" alignItems="center">
                     <Link href='/Recommand' >
                         <Flex w="7px" h="16px">
-                            <Image src={arrowL}/>
+                            <Image src={arrowL} alt="arrowL"/>
                         </Flex>
                     </Link>
                 </Flex>
@@ -48,12 +48,12 @@ export default function situation() {
                     상황따라
                 </Text>
                 <Flex w="20px" h="20px" mr="9px">
-                    <Image src={Export}/>
+                    <Image src={exportBtn} alt="exportBtn"/>
                 </Flex>
             </Flex>
             <Flex w="vw" direction="column" alignItems='center' justifyContent="center" mt="20px">
                 <Flex w="40px" h="40px">
-                    <Image src={Q}/>
+                    <Image src={Q} alt="src"/>
                 </Flex>
                 <Text fontSize={f1} fontWeight="bold" mt="15px">누구와 함께 하나요?</Text>
                 <Text fontSize={f2}>선택은 최대 1개까지 가능합니다</Text>
