@@ -14,7 +14,7 @@ import Image from "next/image";
 import arrowB from './images/arrowB.png';
 import user from './images/user.png';
 import starF from './images/starF.png';
-import foodExample from './images/photo/foodExample.png';
+import p0 from './images/photo/photoEx0.png';
 import starB from './images/starB.png';
 import heart from './images/heart.png';
 import comment from './images/comment.png';
@@ -72,7 +72,7 @@ export default function review() {
                     </Flex>
                 </Flex>
                 <Flex mt="12px">
-                    <Image src={foodExample}/>
+                    <Image src={p0}/>
                 </Flex>
 
                 <Text id='userReview1' mt="12px" >

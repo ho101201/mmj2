@@ -21,7 +21,7 @@ import {
  
 import arrowL from './images/arrowL.png';
 import arrowR from './images/arrowR.png';
-import Export from './images/export.png';
+import exportBtn from './images/export.png';
 import gallery from './images/gallery.png';
 import starF from './images/starF.png';
 import Exclamation from './images/Exclamation.png';
@@ -57,7 +57,7 @@ export default function rInfo() {
                     카츠단길
                 </Text>
                 <Flex w="20px" h="20px" mr="9px">
-                    <Image src={Export}/>
+                    <Image src={exportBtn}/>
                 </Flex>
             </Flex>
             <Grid templateRows='repeat( 2, 1fr )' templateColumns='repeat( 4, 1fr )' gap={0} >

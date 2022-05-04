@@ -16,13 +16,12 @@ import {
 } from 'react';
  
 import arrowL from './images/arrowL.png';
-import Export from './images/export.png';
+import exportBtn from './images/exportBtn.png';
 import gallery from './images/gallery.png';
 import starF from './images/starF.png';
 import user from './images/user.png';
-import foodExample from './images/photo/foodExample.png';
 
-
+import p0 from './images/photo/photoEx0.png';
 import p1 from './images/photo/photoEx1.png';
 import p2 from './images/photo/photoEx2.png';
 import p3 from './images/photo/photoEx3.png';
@@ -58,7 +57,7 @@ export default function rRev() {
                     카츠단길
                 </Text>
                 <Flex w="20px" h="20px" mr="9px">
-                    <Image src={Export}/>
+                    <Image src={exportBtn}/>
                 </Flex>
             </Flex>
             <Grid templateRows='repeat( 2, 1fr )' templateColumns='repeat( 4, 1fr )' gap={0} >
@@ -159,9 +158,9 @@ export default function rRev() {
                         </Flex>
                     </Flex>
                     <Flex mt="12px">
-                        <Image src={foodExample}/>
+                        <Image src={p0}/>
                     </Flex>
-
+ 
                     <Text id='userReview1' mt="12px">
                         후기텍스트후기텍스트후기텍스트후기텍스트후기텍스트
                         후기텍스트후기텍스트후기텍스트후기텍스트후기텍스트
