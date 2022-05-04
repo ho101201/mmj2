@@ -22,10 +22,7 @@ import {
 } from 'react';
 
 
-import Q from './images/Q.png';
 import arrowL from './images/arrowL.png';
-import Export from './images/export.png';
-
 import addphoto1 from './images/addphoto1.png';
 import addphoto2 from './images/addphoto2.png';
 

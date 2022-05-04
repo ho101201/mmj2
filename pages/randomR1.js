@@ -15,7 +15,7 @@ import {
 
 import arrowL from './images/arrowL.png';
 import exportBtn from './images/exportBtn.png';
-import circleY from './images/ellipseY.png';
+import circleY from './images/EllipseY.png';
 import FNK from './images/F&K.png';
 
 export default function Random1() {

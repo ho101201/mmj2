@@ -11,7 +11,7 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 
 import btnX from './images/btnX.png';
-import arrowL from './images/arrow-Left.png';
+import arrowL from './images/arrow-left.png';
 import circleY from './images/EllipseY.png';
 import circleG from './images/EllipseG.png';
 import checkB from './images/checkB.png';

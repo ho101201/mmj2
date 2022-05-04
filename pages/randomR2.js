@@ -13,7 +13,7 @@ import {
 
 import arrowL from './images/arrowL.png';
 import exportBtn from './images/exportBtn.png';
-import circleY from './images/ellipseY.png';
+import circleY from './images/EllipseY.png';
 import store from './images/store.png';
 
 export default function Random2() {
@@ -42,7 +42,7 @@ export default function Random2() {
             </Flex>
             <Flex w="vw" direction="column" alignItems='center' justifyContent="center" mt="20px">
                 <Flex w="40px" h="40px">
-                    <Image src={circleY}/>
+                    <Image src={circleY} alt="circleY"/>
                     <Flex  w="18px" h="18px" mt="11px" ml="11px" position="absolute" >
                         <Image src={store} alt="store"/>
                     </Flex>
